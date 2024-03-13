@@ -1,12 +1,12 @@
-import tkinter as tk
-from tkinter import ttk as ttk
-import os,metainfo
+#main file to train Algorithm
+import os
+import pandas as pd
+import numpy as np
 
 
-main_window = tk.Tk()
-main_window.geometry("800x600")
-main_window.title("Item Analyser")
-photo_icon = tk.PhotoImage(file = os.path.join(f"dragontail-{metainfo.VERSION}",metainfo.VERSION,"img","item","1517.png"))
-main_window.iconphoto(False, photo_icon)
+#this version was the first to release this year, and has the item stats at their purest level, could be used the training set or test set
+base_dataset = pd.read_csv(os.path.join("Item Data","14.1.1_item_data.csv")) 
+latest_dataset = pd.read_csv(os.path.join("Item Data","14.5.1_item_data.csv")) #latest version, used for verification testing
+#other versions can be used as training
 
-main_window.mainloop()
+
