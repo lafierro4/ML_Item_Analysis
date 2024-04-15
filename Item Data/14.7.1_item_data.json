@@ -323,7 +323,7 @@
       "item_id": "2019",
       "name": "Steel Sigil",
       "gold": {
-        "base": 450,
+        "base": 150,
         "purchasable": true,
         "total": 1100,
         "sell": 770
@@ -350,10 +350,10 @@
       "item_id": "2021",
       "name": "Tunneler",
       "gold": {
-        "base": 350,
+        "base": 400,
         "purchasable": true,
-        "total": 1100,
-        "sell": 770
+        "total": 1150,
+        "sell": 805
       },
       "stats": {
         "FlatHPPoolMod": 250,
@@ -503,10 +503,10 @@
       "item_id": "3024",
       "name": "Glacial Buckler",
       "gold": {
-        "base": 250,
+        "base": 50,
         "purchasable": true,
-        "total": 900,
-        "sell": 630
+        "total": 950,
+        "sell": 665
       },
       "stats": {
         "FlatMPPoolMod": 250,
@@ -644,7 +644,7 @@
       "item_id": "3050",
       "name": "Zeke's Convergence",
       "gold": {
-        "base": 500,
+        "base": 450,
         "purchasable": true,
         "total": 2200,
         "sell": 1540
@@ -659,13 +659,13 @@
       "item_id": "3051",
       "name": "Hearthbound Axe",
       "gold": {
-        "base": 250,
+        "base": 200,
         "purchasable": true,
-        "total": 1200,
-        "sell": 840
+        "total": 1150,
+        "sell": 805
       },
       "stats": {
-        "FlatPhysicalDamageMod": 20,
+        "FlatPhysicalDamageMod": 15,
         "PercentAttackSpeedMod": 0.25
       }
     },
@@ -673,7 +673,7 @@
       "item_id": "3053",
       "name": "Sterak's Gage",
       "gold": {
-        "base": 625,
+        "base": 575,
         "purchasable": true,
         "total": 3000,
         "sell": 2100
@@ -733,7 +733,7 @@
         "sell": 1890
       },
       "stats": {
-        "FlatHPPoolMod": 450,
+        "FlatHPPoolMod": 500,
         "FlatArmorMod": 50
       }
     },
@@ -754,7 +754,7 @@
       "item_id": "3071",
       "name": "Black Cleaver",
       "gold": {
-        "base": 750,
+        "base": 400,
         "purchasable": true,
         "total": 3000,
         "sell": 2100
@@ -852,7 +852,7 @@
       "item_id": "3078",
       "name": "Trinity Force",
       "gold": {
-        "base": 133,
+        "base": 183,
         "purchasable": true,
         "total": 3333,
         "sell": 2333
@@ -937,10 +937,10 @@
       "item_id": "3087",
       "name": "Statikk Shiv",
       "gold": {
-        "base": 100,
+        "base": 300,
         "purchasable": true,
-        "total": 2700,
-        "sell": 1890
+        "total": 2900,
+        "sell": 2030
       },
       "stats": {
         "FlatCritChanceMod": 0.2,
@@ -1024,7 +1024,7 @@
       "item_id": "3102",
       "name": "Banshee's Veil",
       "gold": {
-        "base": 50,
+        "base": 150,
         "purchasable": true,
         "total": 3100,
         "sell": 2170
@@ -1057,7 +1057,7 @@
         "sell": 630
       },
       "stats": {
-        "FlatMagicDamageMod": 35
+        "FlatMagicDamageMod": 25
       }
     },
     {
@@ -1078,14 +1078,14 @@
       "item_id": "3110",
       "name": "Frozen Heart",
       "gold": {
-        "base": 500,
+        "base": 550,
         "purchasable": true,
-        "total": 2400,
-        "sell": 1680
+        "total": 2500,
+        "sell": 1750
       },
       "stats": {
         "FlatMPPoolMod": 400,
-        "FlatArmorMod": 70
+        "FlatArmorMod": 65
       }
     },
     {
@@ -1223,7 +1223,7 @@
         "sell": 770
       },
       "stats": {
-        "FlatPhysicalDamageMod": 25
+        "FlatPhysicalDamageMod": 20
       }
     },
     {
@@ -1236,7 +1236,7 @@
         "sell": 700
       },
       "stats": {
-        "FlatPhysicalDamageMod": 25
+        "FlatPhysicalDamageMod": 20
       }
     },
     {
@@ -1330,7 +1330,7 @@
         "sell": 770
       },
       "stats": {
-        "FlatMagicDamageMod": 50
+        "FlatMagicDamageMod": 45
       }
     },
     {
@@ -1344,21 +1344,21 @@
       },
       "stats": {
         "FlatHPPoolMod": 200,
-        "FlatMagicDamageMod": 35
+        "FlatMagicDamageMod": 30
       }
     },
     {
       "item_id": "3152",
       "name": "Hextech Rocketbelt",
       "gold": {
-        "base": 600,
+        "base": 700,
         "purchasable": true,
-        "total": 2500,
-        "sell": 1750
+        "total": 2600,
+        "sell": 1820
       },
       "stats": {
         "FlatHPPoolMod": 300,
-        "FlatMagicDamageMod": 60
+        "FlatMagicDamageMod": 70
       }
     },
     {
@@ -1475,7 +1475,7 @@
       "item_id": "3181",
       "name": "Hullbreaker",
       "gold": {
-        "base": 125,
+        "base": 75,
         "purchasable": true,
         "total": 3000,
         "sell": 2100
@@ -1505,14 +1505,14 @@
       "item_id": "3211",
       "name": "Spectre's Cowl",
       "gold": {
-        "base": 400,
+        "base": 100,
         "purchasable": true,
         "total": 1250,
         "sell": 875
       },
       "stats": {
         "FlatSpellBlockMod": 25,
-        "FlatHPPoolMod": 250
+        "FlatHPPoolMod": 200
       }
     },
     {
@@ -1532,7 +1532,7 @@
       "item_id": "3302",
       "name": "Terminus",
       "gold": {
-        "base": 700,
+        "base": 300,
         "purchasable": true,
         "total": 3000,
         "sell": 2100
@@ -1589,7 +1589,7 @@
       "item_id": "3748",
       "name": "Titanic Hydra",
       "gold": {
-        "base": 600,
+        "base": 550,
         "purchasable": true,
         "total": 3300,
         "sell": 2310
@@ -1644,7 +1644,7 @@
       "item_id": "3814",
       "name": "Edge of Night",
       "gold": {
-        "base": 700,
+        "base": 650,
         "purchasable": true,
         "total": 2800,
         "sell": 1960
@@ -1818,10 +1818,10 @@
       "item_id": "4632",
       "name": "Verdant Barrier",
       "gold": {
-        "base": 550,
+        "base": 450,
         "purchasable": true,
-        "total": 1800,
-        "sell": 1260
+        "total": 1700,
+        "sell": 1190
       },
       "stats": {
         "FlatSpellBlockMod": 30,
@@ -1909,7 +1909,7 @@
       },
       "stats": {
         "FlatMagicDamageMod": 95,
-        "PercentMovementSpeedMod": 0.05
+        "PercentMovementSpeedMod": 0.08
       }
     },
     {
@@ -1944,7 +1944,7 @@
       "item_id": "6610",
       "name": "Sundered Sky",
       "gold": {
-        "base": 900,
+        "base": 850,
         "purchasable": true,
         "total": 3100,
         "sell": 2170
@@ -2170,14 +2170,14 @@
       "item_id": "6675",
       "name": "Navori Quickblades",
       "gold": {
-        "base": 725,
+        "base": 300,
         "purchasable": true,
         "total": 3300,
         "sell": 2310
       },
       "stats": {
         "FlatCritChanceMod": 0.2,
-        "FlatPhysicalDamageMod": 60
+        "FlatPhysicalDamageMod": 65
       }
     },
     {

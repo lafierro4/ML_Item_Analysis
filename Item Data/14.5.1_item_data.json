@@ -10,7 +10,6 @@
         "total": 300,
         "sell": 210
       },
-      "image": "1001.png",
       "stats": {
         "FlatMovementSpeedMod": 25
       }
@@ -24,7 +23,6 @@
         "total": 900,
         "sell": 630
       },
-      "image": "1011.png",
       "stats": {
         "FlatHPPoolMod": 350
       }
@@ -38,7 +36,6 @@
         "total": 600,
         "sell": 420
       },
-      "image": "1018.png",
       "stats": {
         "FlatCritChanceMod": 0.15
       }
@@ -52,7 +49,6 @@
         "total": 850,
         "sell": 595
       },
-      "image": "1026.png",
       "stats": {
         "FlatMagicDamageMod": 45
       }
@@ -66,7 +62,6 @@
         "total": 350,
         "sell": 245
       },
-      "image": "1027.png",
       "stats": {
         "FlatMPPoolMod": 250
       }
@@ -80,7 +75,6 @@
         "total": 400,
         "sell": 280
       },
-      "image": "1028.png",
       "stats": {
         "FlatHPPoolMod": 150
       }
@@ -94,7 +88,6 @@
         "total": 300,
         "sell": 210
       },
-      "image": "1029.png",
       "stats": {
         "FlatArmorMod": 15
       }
@@ -108,7 +101,6 @@
         "total": 800,
         "sell": 560
       },
-      "image": "1031.png",
       "stats": {
         "FlatArmorMod": 40
       }
@@ -122,7 +114,6 @@
         "total": 450,
         "sell": 315
       },
-      "image": "1033.png",
       "stats": {
         "FlatSpellBlockMod": 25
       }
@@ -136,7 +127,6 @@
         "total": 350,
         "sell": 245
       },
-      "image": "1036.png",
       "stats": {
         "FlatPhysicalDamageMod": 10
       }
@@ -150,7 +140,6 @@
         "total": 875,
         "sell": 613
       },
-      "image": "1037.png",
       "stats": {
         "FlatPhysicalDamageMod": 25
       }
@@ -164,7 +153,6 @@
         "total": 1300,
         "sell": 910
       },
-      "image": "1038.png",
       "stats": {
         "FlatPhysicalDamageMod": 40
       }
@@ -178,7 +166,6 @@
         "total": 300,
         "sell": 210
       },
-      "image": "1042.png",
       "stats": {
         "PercentAttackSpeedMod": 0.12
       }
@@ -192,7 +179,6 @@
         "total": 700,
         "sell": 490
       },
-      "image": "1043.png",
       "stats": {
         "PercentAttackSpeedMod": 0.15
       }
@@ -206,7 +192,6 @@
         "total": 400,
         "sell": 280
       },
-      "image": "1052.png",
       "stats": {
         "FlatMagicDamageMod": 20
       }
@@ -220,7 +205,6 @@
         "total": 900,
         "sell": 630
       },
-      "image": "1053.png",
       "stats": {
         "FlatPhysicalDamageMod": 15,
         "PercentLifeStealMod": 0.07
@@ -235,7 +219,6 @@
         "total": 450,
         "sell": 180
       },
-      "image": "1054.png",
       "stats": {
         "FlatHPPoolMod": 110,
         "FlatHPRegenMod": 0.8
@@ -250,7 +233,6 @@
         "total": 450,
         "sell": 180
       },
-      "image": "1055.png",
       "stats": {
         "FlatHPPoolMod": 100,
         "FlatPhysicalDamageMod": 10,
@@ -266,7 +248,6 @@
         "total": 400,
         "sell": 160
       },
-      "image": "1056.png",
       "stats": {
         "FlatHPPoolMod": 90,
         "FlatMagicDamageMod": 18
@@ -281,7 +262,6 @@
         "total": 900,
         "sell": 630
       },
-      "image": "1057.png",
       "stats": {
         "FlatSpellBlockMod": 50
       }
@@ -295,7 +275,6 @@
         "total": 1250,
         "sell": 875
       },
-      "image": "1058.png",
       "stats": {
         "FlatMagicDamageMod": 70
       }
@@ -309,7 +288,6 @@
         "total": 350,
         "sell": 140
       },
-      "image": "1082.png",
       "stats": {
         "FlatHPPoolMod": 50,
         "FlatMagicDamageMod": 15
@@ -324,7 +302,6 @@
         "total": 450,
         "sell": 180
       },
-      "image": "1083.png",
       "stats": {
         "FlatPhysicalDamageMod": 7
       }
@@ -338,7 +315,6 @@
         "total": 700,
         "sell": 490
       },
-      "image": "2015.png",
       "stats": {
         "FlatPhysicalDamageMod": 15
       }
@@ -352,7 +328,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "2019.png",
       "stats": {
         "FlatArmorMod": 30,
         "FlatPhysicalDamageMod": 15
@@ -367,7 +342,6 @@
         "total": 1337,
         "sell": 936
       },
-      "image": "2020.png",
       "stats": {
         "FlatPhysicalDamageMod": 25
       }
@@ -381,7 +355,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "2021.png",
       "stats": {
         "FlatHPPoolMod": 250,
         "FlatPhysicalDamageMod": 15
@@ -396,7 +369,6 @@
         "total": 2200,
         "sell": 1540
       },
-      "image": "2065.png",
       "stats": {
         "FlatMagicDamageMod": 55,
         "PercentMovementSpeedMod": 0.08
@@ -411,7 +383,6 @@
         "total": 1600,
         "sell": 640
       },
-      "image": "2420.png",
       "stats": {
         "FlatMagicDamageMod": 45,
         "FlatArmorMod": 25
@@ -426,7 +397,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "2502.png",
       "stats": {
         "FlatHPPoolMod": 400,
         "FlatArmorMod": 55
@@ -441,7 +411,6 @@
         "total": 2900,
         "sell": 2030
       },
-      "image": "2504.png",
       "stats": {
         "FlatSpellBlockMod": 80,
         "FlatHPPoolMod": 400
@@ -456,7 +425,6 @@
         "total": 2500,
         "sell": 1750
       },
-      "image": "3002.png",
       "stats": {
         "FlatHPPoolMod": 200,
         "FlatArmorMod": 40,
@@ -472,7 +440,6 @@
         "total": 2900,
         "sell": 2030
       },
-      "image": "3003.png",
       "stats": {
         "FlatMPPoolMod": 600,
         "FlatMagicDamageMod": 80
@@ -487,7 +454,6 @@
         "total": 2900,
         "sell": 2030
       },
-      "image": "3004.png",
       "stats": {
         "FlatMPPoolMod": 500,
         "FlatPhysicalDamageMod": 35
@@ -502,7 +468,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "3006.png",
       "stats": {
         "FlatMovementSpeedMod": 45,
         "PercentAttackSpeedMod": 0.35
@@ -517,7 +482,6 @@
         "total": 900,
         "sell": 630
       },
-      "image": "3009.png",
       "stats": {
         "FlatMovementSpeedMod": 60
       }
@@ -531,7 +495,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "3020.png",
       "stats": {
         "FlatMovementSpeedMod": 45
       }
@@ -545,7 +508,6 @@
         "total": 900,
         "sell": 630
       },
-      "image": "3024.png",
       "stats": {
         "FlatMPPoolMod": 250,
         "FlatArmorMod": 20
@@ -560,7 +522,6 @@
         "total": 3200,
         "sell": 1280
       },
-      "image": "3026.png",
       "stats": {
         "FlatArmorMod": 45,
         "FlatPhysicalDamageMod": 55
@@ -575,7 +536,6 @@
         "total": 3300,
         "sell": 2310
       },
-      "image": "3031.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 65
@@ -590,7 +550,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3033.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 40
@@ -605,7 +564,6 @@
         "total": 1450,
         "sell": 1015
       },
-      "image": "3035.png",
       "stats": {
         "FlatPhysicalDamageMod": 20
       }
@@ -619,7 +577,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3036.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 40
@@ -634,7 +591,6 @@
         "total": 1500,
         "sell": 1050
       },
-      "image": "3041.png",
       "stats": {
         "FlatHPPoolMod": 100,
         "FlatMagicDamageMod": 20
@@ -649,7 +605,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "3044.png",
       "stats": {
         "FlatHPPoolMod": 200,
         "FlatPhysicalDamageMod": 15
@@ -664,7 +619,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "3046.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 20,
@@ -681,7 +635,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "3047.png",
       "stats": {
         "FlatMovementSpeedMod": 45,
         "FlatArmorMod": 20
@@ -696,7 +649,6 @@
         "total": 2200,
         "sell": 1540
       },
-      "image": "3050.png",
       "stats": {
         "FlatMPPoolMod": 250,
         "FlatHPPoolMod": 200,
@@ -712,7 +664,6 @@
         "total": 1200,
         "sell": 840
       },
-      "image": "3051.png",
       "stats": {
         "FlatPhysicalDamageMod": 20,
         "PercentAttackSpeedMod": 0.25
@@ -727,7 +678,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3053.png",
       "stats": {
         "FlatHPPoolMod": 400
       }
@@ -741,7 +691,6 @@
         "total": 2900,
         "sell": 2030
       },
-      "image": "3065.png",
       "stats": {
         "FlatSpellBlockMod": 60,
         "FlatHPPoolMod": 450
@@ -756,7 +705,6 @@
         "total": 800,
         "sell": 560
       },
-      "image": "3066.png",
       "stats": {
         "FlatHPPoolMod": 150,
         "PercentMovementSpeedMod": 0.05
@@ -771,7 +719,6 @@
         "total": 800,
         "sell": 560
       },
-      "image": "3067.png",
       "stats": {
         "FlatHPPoolMod": 200
       }
@@ -785,7 +732,6 @@
         "total": 2700,
         "sell": 1890
       },
-      "image": "3068.png",
       "stats": {
         "FlatHPPoolMod": 500,
         "FlatArmorMod": 50
@@ -800,7 +746,6 @@
         "total": 400,
         "sell": 280
       },
-      "image": "3070.png",
       "stats": {
         "FlatMPPoolMod": 240
       }
@@ -814,7 +759,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3071.png",
       "stats": {
         "FlatHPPoolMod": 400,
         "FlatPhysicalDamageMod": 55
@@ -829,7 +773,6 @@
         "total": 3400,
         "sell": 2380
       },
-      "image": "3072.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 55,
@@ -845,7 +788,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3073.png",
       "stats": {
         "FlatHPPoolMod": 300,
         "FlatPhysicalDamageMod": 55,
@@ -861,7 +803,6 @@
         "total": 3300,
         "sell": 2310
       },
-      "image": "3074.png",
       "stats": {
         "FlatPhysicalDamageMod": 70,
         "PercentLifeStealMod": 0.12
@@ -876,7 +817,6 @@
         "total": 2700,
         "sell": 1890
       },
-      "image": "3075.png",
       "stats": {
         "FlatHPPoolMod": 350,
         "FlatArmorMod": 70
@@ -891,7 +831,6 @@
         "total": 800,
         "sell": 560
       },
-      "image": "3076.png",
       "stats": {
         "FlatArmorMod": 30
       }
@@ -905,7 +844,6 @@
         "total": 1200,
         "sell": 840
       },
-      "image": "3077.png",
       "stats": {
         "FlatPhysicalDamageMod": 20
       }
@@ -919,7 +857,6 @@
         "total": 3333,
         "sell": 2333
       },
-      "image": "3078.png",
       "stats": {
         "FlatHPPoolMod": 300,
         "FlatPhysicalDamageMod": 45,
@@ -935,7 +872,6 @@
         "total": 1000,
         "sell": 700
       },
-      "image": "3082.png",
       "stats": {
         "FlatArmorMod": 40
       }
@@ -949,7 +885,6 @@
         "total": 3100,
         "sell": 2170
       },
-      "image": "3083.png",
       "stats": {
         "FlatHPPoolMod": 750,
         "PercentMovementSpeedMod": 0.05
@@ -964,7 +899,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3084.png",
       "stats": {
         "FlatHPPoolMod": 900
       }
@@ -978,7 +912,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "3085.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "PercentAttackSpeedMod": 0.4,
@@ -994,7 +927,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "3086.png",
       "stats": {
         "FlatCritChanceMod": 0.15,
         "PercentAttackSpeedMod": 0.15,
@@ -1010,7 +942,6 @@
         "total": 2700,
         "sell": 1890
       },
-      "image": "3087.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 50,
@@ -1026,7 +957,6 @@
         "total": 3600,
         "sell": 2520
       },
-      "image": "3089.png",
       "stats": {
         "FlatMagicDamageMod": 140
       }
@@ -1040,7 +970,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "3091.png",
       "stats": {
         "FlatSpellBlockMod": 50,
         "PercentAttackSpeedMod": 0.55
@@ -1055,7 +984,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3094.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 30,
@@ -1072,7 +1000,6 @@
         "total": 3100,
         "sell": 2170
       },
-      "image": "3095.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 60,
@@ -1088,7 +1015,6 @@
         "total": 3100,
         "sell": 2170
       },
-      "image": "3100.png",
       "stats": {
         "FlatMagicDamageMod": 100,
         "PercentMovementSpeedMod": 0.08
@@ -1103,7 +1029,6 @@
         "total": 3100,
         "sell": 2170
       },
-      "image": "3102.png",
       "stats": {
         "FlatSpellBlockMod": 50,
         "FlatMagicDamageMod": 120
@@ -1118,7 +1043,6 @@
         "total": 2300,
         "sell": 1610
       },
-      "image": "3107.png",
       "stats": {
         "FlatHPPoolMod": 200
       }
@@ -1132,7 +1056,6 @@
         "total": 900,
         "sell": 630
       },
-      "image": "3108.png",
       "stats": {
         "FlatMagicDamageMod": 35
       }
@@ -1146,7 +1069,6 @@
         "total": 2200,
         "sell": 1540
       },
-      "image": "3109.png",
       "stats": {
         "FlatHPPoolMod": 300,
         "FlatArmorMod": 45
@@ -1161,7 +1083,6 @@
         "total": 2500,
         "sell": 1750
       },
-      "image": "3110.png",
       "stats": {
         "FlatMPPoolMod": 400,
         "FlatArmorMod": 65
@@ -1176,7 +1097,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "3111.png",
       "stats": {
         "FlatSpellBlockMod": 25,
         "FlatMovementSpeedMod": 45
@@ -1191,7 +1111,6 @@
         "total": 850,
         "sell": 595
       },
-      "image": "3113.png",
       "stats": {
         "FlatMagicDamageMod": 30,
         "PercentMovementSpeedMod": 0.05
@@ -1206,7 +1125,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3115.png",
       "stats": {
         "FlatMagicDamageMod": 90,
         "PercentAttackSpeedMod": 0.5
@@ -1221,7 +1139,6 @@
         "total": 2600,
         "sell": 1820
       },
-      "image": "3116.png",
       "stats": {
         "FlatHPPoolMod": 400,
         "FlatMagicDamageMod": 75
@@ -1236,7 +1153,6 @@
         "total": 1000,
         "sell": 700
       },
-      "image": "3117.png",
       "stats": {
         "FlatMovementSpeedMod": 115
       }
@@ -1250,7 +1166,6 @@
         "total": 2700,
         "sell": 1890
       },
-      "image": "3118.png",
       "stats": {
         "FlatMPPoolMod": 600,
         "FlatMagicDamageMod": 80
@@ -1265,7 +1180,6 @@
         "total": 2400,
         "sell": 1680
       },
-      "image": "3119.png",
       "stats": {
         "FlatMPPoolMod": 500,
         "FlatHPPoolMod": 400
@@ -1280,7 +1194,6 @@
         "total": 800,
         "sell": 560
       },
-      "image": "3123.png",
       "stats": {
         "FlatPhysicalDamageMod": 15
       }
@@ -1294,7 +1207,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3124.png",
       "stats": {
         "FlatMagicDamageMod": 35,
         "FlatPhysicalDamageMod": 35,
@@ -1310,7 +1222,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "3133.png",
       "stats": {
         "FlatPhysicalDamageMod": 25
       }
@@ -1324,7 +1235,6 @@
         "total": 1000,
         "sell": 700
       },
-      "image": "3134.png",
       "stats": {
         "FlatPhysicalDamageMod": 25
       }
@@ -1338,7 +1248,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3135.png",
       "stats": {
         "FlatMagicDamageMod": 80
       }
@@ -1352,7 +1261,6 @@
         "total": 2850,
         "sell": 1995
       },
-      "image": "3137.png",
       "stats": {
         "FlatMagicDamageMod": 70
       }
@@ -1366,7 +1274,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3139.png",
       "stats": {
         "FlatSpellBlockMod": 50,
         "FlatCritChanceMod": 0.2,
@@ -1382,7 +1289,6 @@
         "total": 1300,
         "sell": 910
       },
-      "image": "3140.png",
       "stats": {
         "FlatSpellBlockMod": 30
       }
@@ -1396,7 +1302,6 @@
         "total": 2700,
         "sell": 1890
       },
-      "image": "3142.png",
       "stats": {
         "FlatPhysicalDamageMod": 60
       }
@@ -1410,7 +1315,6 @@
         "total": 2700,
         "sell": 1890
       },
-      "image": "3143.png",
       "stats": {
         "FlatHPPoolMod": 400,
         "FlatArmorMod": 55
@@ -1425,7 +1329,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "3145.png",
       "stats": {
         "FlatMagicDamageMod": 50
       }
@@ -1439,7 +1342,6 @@
         "total": 1300,
         "sell": 910
       },
-      "image": "3147.png",
       "stats": {
         "FlatHPPoolMod": 200,
         "FlatMagicDamageMod": 35
@@ -1454,7 +1356,6 @@
         "total": 2600,
         "sell": 1820
       },
-      "image": "3152.png",
       "stats": {
         "FlatHPPoolMod": 300,
         "FlatMagicDamageMod": 70
@@ -1469,7 +1370,6 @@
         "total": 3200,
         "sell": 2240
       },
-      "image": "3153.png",
       "stats": {
         "FlatPhysicalDamageMod": 40,
         "PercentAttackSpeedMod": 0.25,
@@ -1485,7 +1385,6 @@
         "total": 1300,
         "sell": 910
       },
-      "image": "3155.png",
       "stats": {
         "FlatSpellBlockMod": 35,
         "FlatPhysicalDamageMod": 25
@@ -1500,7 +1399,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "3156.png",
       "stats": {
         "FlatSpellBlockMod": 50,
         "FlatPhysicalDamageMod": 65
@@ -1515,7 +1413,6 @@
         "total": 3250,
         "sell": 2275
       },
-      "image": "3157.png",
       "stats": {
         "FlatMagicDamageMod": 120,
         "FlatArmorMod": 50
@@ -1530,7 +1427,6 @@
         "total": 900,
         "sell": 630
       },
-      "image": "3158.png",
       "stats": {
         "FlatMovementSpeedMod": 45
       }
@@ -1544,7 +1440,6 @@
         "total": 3100,
         "sell": 2170
       },
-      "image": "3161.png",
       "stats": {
         "FlatHPPoolMod": 300,
         "FlatPhysicalDamageMod": 55
@@ -1559,7 +1454,6 @@
         "total": 2200,
         "sell": 1540
       },
-      "image": "3165.png",
       "stats": {
         "FlatMagicDamageMod": 90
       }
@@ -1573,7 +1467,6 @@
         "total": 2600,
         "sell": 1820
       },
-      "image": "3179.png",
       "stats": {
         "FlatPhysicalDamageMod": 50
       }
@@ -1587,7 +1480,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3181.png",
       "stats": {
         "FlatHPPoolMod": 350,
         "FlatPhysicalDamageMod": 65,
@@ -1603,7 +1495,6 @@
         "total": 2200,
         "sell": 1540
       },
-      "image": "3190.png",
       "stats": {
         "FlatSpellBlockMod": 30,
         "FlatHPPoolMod": 200,
@@ -1619,7 +1510,6 @@
         "total": 1250,
         "sell": 875
       },
-      "image": "3211.png",
       "stats": {
         "FlatSpellBlockMod": 25,
         "FlatHPPoolMod": 250
@@ -1634,7 +1524,6 @@
         "total": 2300,
         "sell": 1610
       },
-      "image": "3222.png",
       "stats": {
         "FlatHPPoolMod": 250
       }
@@ -1648,7 +1537,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "3302.png",
       "stats": {
         "FlatPhysicalDamageMod": 40,
         "PercentAttackSpeedMod": 0.3
@@ -1663,7 +1551,6 @@
         "total": 2300,
         "sell": 1610
       },
-      "image": "3504.png",
       "stats": {
         "FlatMagicDamageMod": 50,
         "PercentMovementSpeedMod": 0.08
@@ -1678,7 +1565,6 @@
         "total": 2900,
         "sell": 2030
       },
-      "image": "3508.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 60
@@ -1693,7 +1579,6 @@
         "total": 2900,
         "sell": 2030
       },
-      "image": "3742.png",
       "stats": {
         "FlatHPPoolMod": 300,
         "FlatArmorMod": 45,
@@ -1709,7 +1594,6 @@
         "total": 3300,
         "sell": 2310
       },
-      "image": "3748.png",
       "stats": {
         "FlatHPPoolMod": 550,
         "FlatPhysicalDamageMod": 50
@@ -1724,7 +1608,6 @@
         "total": 800,
         "sell": 560
       },
-      "image": "3801.png",
       "stats": {
         "FlatHPPoolMod": 200
       }
@@ -1738,7 +1621,6 @@
         "total": 1200,
         "sell": 840
       },
-      "image": "3802.png",
       "stats": {
         "FlatMPPoolMod": 300,
         "FlatMagicDamageMod": 40
@@ -1753,7 +1635,6 @@
         "total": 1300,
         "sell": 910
       },
-      "image": "3803.png",
       "stats": {
         "FlatMPPoolMod": 300,
         "FlatHPPoolMod": 350
@@ -1768,7 +1649,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "3814.png",
       "stats": {
         "FlatHPPoolMod": 250,
         "FlatPhysicalDamageMod": 50
@@ -1783,7 +1663,6 @@
         "total": 400,
         "sell": 160
       },
-      "image": "3865.png",
       "stats": {
         "FlatHPPoolMod": 30
       }
@@ -1797,7 +1676,6 @@
         "total": 400,
         "sell": 160
       },
-      "image": "3869.png",
       "stats": {
         "FlatHPPoolMod": 200
       }
@@ -1811,7 +1689,6 @@
         "total": 400,
         "sell": 160
       },
-      "image": "3870.png",
       "stats": {
         "FlatHPPoolMod": 200
       }
@@ -1825,7 +1702,6 @@
         "total": 400,
         "sell": 160
       },
-      "image": "3871.png",
       "stats": {
         "FlatHPPoolMod": 200
       }
@@ -1839,7 +1715,6 @@
         "total": 400,
         "sell": 160
       },
-      "image": "3876.png",
       "stats": {
         "FlatHPPoolMod": 200
       }
@@ -1853,7 +1728,6 @@
         "total": 400,
         "sell": 160
       },
-      "image": "3877.png",
       "stats": {
         "FlatHPPoolMod": 200
       }
@@ -1867,7 +1741,6 @@
         "total": 800,
         "sell": 560
       },
-      "image": "3916.png",
       "stats": {
         "FlatMagicDamageMod": 30
       }
@@ -1881,7 +1754,6 @@
         "total": 2300,
         "sell": 1610
       },
-      "image": "4005.png",
       "stats": {
         "FlatMagicDamageMod": 60
       }
@@ -1895,7 +1767,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "4401.png",
       "stats": {
         "FlatSpellBlockMod": 55,
         "FlatHPPoolMod": 400,
@@ -1911,7 +1782,6 @@
         "total": 2700,
         "sell": 1890
       },
-      "image": "4628.png",
       "stats": {
         "FlatMagicDamageMod": 90
       }
@@ -1925,7 +1795,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "4629.png",
       "stats": {
         "FlatHPPoolMod": 250,
         "FlatMagicDamageMod": 80,
@@ -1941,7 +1810,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "4630.png",
       "stats": {
         "FlatMagicDamageMod": 25
       }
@@ -1955,7 +1823,6 @@
         "total": 1800,
         "sell": 1260
       },
-      "image": "4632.png",
       "stats": {
         "FlatSpellBlockMod": 30,
         "FlatMagicDamageMod": 40
@@ -1970,7 +1837,6 @@
         "total": 3100,
         "sell": 2170
       },
-      "image": "4633.png",
       "stats": {
         "FlatHPPoolMod": 350,
         "FlatMagicDamageMod": 80
@@ -1985,7 +1851,6 @@
         "total": 1100,
         "sell": 770
       },
-      "image": "4638.png",
       "stats": {
         "FlatSpellBlockMod": 15,
         "FlatHPPoolMod": 150,
@@ -2001,7 +1866,6 @@
         "total": 1000,
         "sell": 700
       },
-      "image": "4642.png",
       "stats": {
         "FlatMagicDamageMod": 20
       }
@@ -2015,7 +1879,6 @@
         "total": 2300,
         "sell": 1610
       },
-      "image": "4643.png",
       "stats": {
         "FlatSpellBlockMod": 30,
         "FlatHPPoolMod": 250,
@@ -2031,7 +1894,6 @@
         "total": 3200,
         "sell": 2240
       },
-      "image": "4645.png",
       "stats": {
         "FlatMagicDamageMod": 120
       }
@@ -2045,7 +1907,6 @@
         "total": 2900,
         "sell": 2030
       },
-      "image": "4646.png",
       "stats": {
         "FlatMagicDamageMod": 95,
         "PercentMovementSpeedMod": 0.08
@@ -2060,7 +1921,6 @@
         "total": 3200,
         "sell": 2240
       },
-      "image": "6333.png",
       "stats": {
         "FlatArmorMod": 40,
         "FlatPhysicalDamageMod": 55
@@ -2075,7 +1935,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "6609.png",
       "stats": {
         "FlatHPPoolMod": 250,
         "FlatPhysicalDamageMod": 55
@@ -2090,7 +1949,6 @@
         "total": 3100,
         "sell": 2170
       },
-      "image": "6610.png",
       "stats": {
         "FlatHPPoolMod": 450,
         "FlatPhysicalDamageMod": 45
@@ -2105,7 +1963,6 @@
         "total": 2300,
         "sell": 1610
       },
-      "image": "6616.png",
       "stats": {
         "FlatMagicDamageMod": 40
       }
@@ -2119,7 +1976,6 @@
         "total": 2200,
         "sell": 1540
       },
-      "image": "6617.png",
       "stats": {
         "FlatHPPoolMod": 250,
         "FlatMagicDamageMod": 30
@@ -2134,7 +1990,6 @@
         "total": 2200,
         "sell": 1540
       },
-      "image": "6620.png",
       "stats": {
         "FlatHPPoolMod": 200,
         "FlatMagicDamageMod": 40
@@ -2149,7 +2004,6 @@
         "total": 2700,
         "sell": 1890
       },
-      "image": "6621.png",
       "stats": {
         "FlatMagicDamageMod": 40
       }
@@ -2163,7 +2017,6 @@
         "total": 3300,
         "sell": 2310
       },
-      "image": "6631.png",
       "stats": {
         "FlatHPPoolMod": 450,
         "FlatPhysicalDamageMod": 50,
@@ -2179,7 +2032,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "6653.png",
       "stats": {
         "FlatHPPoolMod": 300,
         "FlatMagicDamageMod": 90
@@ -2194,7 +2046,6 @@
         "total": 2900,
         "sell": 2030
       },
-      "image": "6655.png",
       "stats": {
         "FlatMPPoolMod": 600,
         "FlatMagicDamageMod": 95
@@ -2209,7 +2060,6 @@
         "total": 2600,
         "sell": 1820
       },
-      "image": "6657.png",
       "stats": {
         "FlatMPPoolMod": 400,
         "FlatHPPoolMod": 400,
@@ -2225,7 +2075,6 @@
         "total": 1000,
         "sell": 700
       },
-      "image": "6660.png",
       "stats": {
         "FlatHPPoolMod": 300
       }
@@ -2239,7 +2088,6 @@
         "total": 2600,
         "sell": 1820
       },
-      "image": "6662.png",
       "stats": {
         "FlatHPPoolMod": 300,
         "FlatArmorMod": 50
@@ -2254,7 +2102,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "6664.png",
       "stats": {
         "FlatSpellBlockMod": 40,
         "FlatHPPoolMod": 600
@@ -2269,7 +2116,6 @@
         "total": 3200,
         "sell": 2240
       },
-      "image": "6665.png",
       "stats": {
         "FlatSpellBlockMod": 50,
         "FlatHPPoolMod": 300,
@@ -2285,7 +2131,6 @@
         "total": 1300,
         "sell": 910
       },
-      "image": "6670.png",
       "stats": {
         "FlatPhysicalDamageMod": 30,
         "PercentAttackSpeedMod": 0.15
@@ -2300,7 +2145,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "6672.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 40,
@@ -2316,7 +2160,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "6673.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 50,
@@ -2332,7 +2175,6 @@
         "total": 3300,
         "sell": 2310
       },
-      "image": "6675.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 60
@@ -2347,7 +2189,6 @@
         "total": 3100,
         "sell": 2170
       },
-      "image": "6676.png",
       "stats": {
         "FlatCritChanceMod": 0.2,
         "FlatPhysicalDamageMod": 55
@@ -2362,7 +2203,6 @@
         "total": 900,
         "sell": 630
       },
-      "image": "6690.png",
       "stats": {
         "FlatPhysicalDamageMod": 20,
         "PercentMovementSpeedMod": 0.04
@@ -2377,7 +2217,6 @@
         "total": 2800,
         "sell": 1960
       },
-      "image": "6692.png",
       "stats": {
         "FlatPhysicalDamageMod": 70
       }
@@ -2391,7 +2230,6 @@
         "total": 3200,
         "sell": 2240
       },
-      "image": "6694.png",
       "stats": {
         "FlatPhysicalDamageMod": 45
       }
@@ -2405,7 +2243,6 @@
         "total": 2500,
         "sell": 1750
       },
-      "image": "6695.png",
       "stats": {
         "FlatPhysicalDamageMod": 55
       }
@@ -2419,7 +2256,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "6696.png",
       "stats": {
         "FlatPhysicalDamageMod": 55
       }
@@ -2433,7 +2269,6 @@
         "total": 3000,
         "sell": 2100
       },
-      "image": "6697.png",
       "stats": {
         "FlatPhysicalDamageMod": 60
       }
@@ -2447,7 +2282,6 @@
         "total": 3300,
         "sell": 2310
       },
-      "image": "6698.png",
       "stats": {
         "FlatPhysicalDamageMod": 60
       }
@@ -2461,7 +2295,6 @@
         "total": 2900,
         "sell": 2030
       },
-      "image": "6699.png",
       "stats": {
         "FlatPhysicalDamageMod": 55
       }
@@ -2475,7 +2308,6 @@
         "total": 2700,
         "sell": 1890
       },
-      "image": "6701.png",
       "stats": {
         "FlatPhysicalDamageMod": 55,
         "PercentMovementSpeedMod": 0.05
@@ -2490,7 +2322,6 @@
         "total": 2500,
         "sell": 1750
       },
-      "image": "8001.png",
       "stats": {
         "FlatHPPoolMod": 650
       }
@@ -2504,7 +2335,6 @@
         "total": 2400,
         "sell": 1680
       },
-      "image": "8020.png",
       "stats": {
         "FlatSpellBlockMod": 60,
         "FlatHPPoolMod": 300

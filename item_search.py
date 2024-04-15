@@ -1,12 +1,13 @@
 import requests
 import json
 import pandas as pd
-import metainfo 
-version = "14.5.1" #change to get specific version data, follow 14.x.1 guide, latest available version 14.5.1
+import DataProcessor 
+version = "14.7.1" #change to get specific version data, follow 14.x.1 guide, latest available version 14.7.1
+language = "en_US"
 
 #connecting to the the api
 try:
-    data_url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/{metainfo.language}/item.json"
+    data_url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/{language}/item.json"
     data_response = requests.get(data_url)
     print(data_response.status_code)
 except ConnectionError as error:
@@ -24,7 +25,7 @@ if "data" in items_data:
            item.get("gold", {}).get("purchasable", False) and \
            not item.get("hideFromAll", False):
             stats = item.get("stats", {})
-            if stats: #if the item doesnt have stats skip it,
+            if stats: #if the item doesnt have statWs skip it,
                 items_list.append({
                     "item_id": item_id,
                     "name": item.get("name", ""),
@@ -32,13 +33,13 @@ if "data" in items_data:
                     "stats": stats
                 })
 #making json file with all of the item's infomation for refernce
-with open(f"{version}_item_data.json", 'w') as data_file:
+with open(f"Item Data/{version}_item_data.json", 'w') as data_file:
     output_data = {"item_count": len(items_list), "items": items_list}
     json.dump(output_data, data_file, indent=2)
 
 #making a csv file from the json file that has the seperated items
 # headers from item_data
-headers = ["item_id", "name", "total_gold", "image"]
+headers = ["item_id", "name", "total_gold"]
 for stat in items_data['basic']['stats']:
         headers.append(stat)
 
@@ -50,4 +51,4 @@ for item in items_list:
     data_rows.append(item_info)
 
 df = pd.DataFrame(data_rows, columns=headers)
-df.to_csv(f"{version}_item_data.csv", index=False)
+df.to_csv(f"Item Data/{version}_item_data.csv", index=False)
