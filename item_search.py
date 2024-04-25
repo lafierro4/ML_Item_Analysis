@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 import DataProcessor 
-version = "14.7.1" #change to get specific version data, follow 14.x.1 guide, latest available version 14.7.1
+version = "14.8.1" #change to get specific version data, follow 14.x.1 guide, latest available version 14.7.1
 language = "en_US"
 
 #connecting to the the api

@@ -1,0 +1,2344 @@
+{
+  "item_count": 170,
+  "items": [
+    {
+      "item_id": "1001",
+      "name": "Boots",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 300,
+        "sell": 210
+      },
+      "stats": {
+        "FlatMovementSpeedMod": 25
+      }
+    },
+    {
+      "item_id": "1011",
+      "name": "Giant's Belt",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 900,
+        "sell": 630
+      },
+      "stats": {
+        "FlatHPPoolMod": 350
+      }
+    },
+    {
+      "item_id": "1018",
+      "name": "Cloak of Agility",
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "total": 600,
+        "sell": 420
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.15
+      }
+    },
+    {
+      "item_id": "1026",
+      "name": "Blasting Wand",
+      "gold": {
+        "base": 850,
+        "purchasable": true,
+        "total": 850,
+        "sell": 595
+      },
+      "stats": {
+        "FlatMagicDamageMod": 45
+      }
+    },
+    {
+      "item_id": "1027",
+      "name": "Sapphire Crystal",
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 350,
+        "sell": 245
+      },
+      "stats": {
+        "FlatMPPoolMod": 250
+      }
+    },
+    {
+      "item_id": "1028",
+      "name": "Ruby Crystal",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 400,
+        "sell": 280
+      },
+      "stats": {
+        "FlatHPPoolMod": 150
+      }
+    },
+    {
+      "item_id": "1029",
+      "name": "Cloth Armor",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 300,
+        "sell": 210
+      },
+      "stats": {
+        "FlatArmorMod": 15
+      }
+    },
+    {
+      "item_id": "1031",
+      "name": "Chain Vest",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 800,
+        "sell": 560
+      },
+      "stats": {
+        "FlatArmorMod": 40
+      }
+    },
+    {
+      "item_id": "1033",
+      "name": "Null-Magic Mantle",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 450,
+        "sell": 315
+      },
+      "stats": {
+        "FlatSpellBlockMod": 25
+      }
+    },
+    {
+      "item_id": "1036",
+      "name": "Long Sword",
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 350,
+        "sell": 245
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 10
+      }
+    },
+    {
+      "item_id": "1037",
+      "name": "Pickaxe",
+      "gold": {
+        "base": 875,
+        "purchasable": true,
+        "total": 875,
+        "sell": 613
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 25
+      }
+    },
+    {
+      "item_id": "1038",
+      "name": "B. F. Sword",
+      "gold": {
+        "base": 1300,
+        "purchasable": true,
+        "total": 1300,
+        "sell": 910
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 40
+      }
+    },
+    {
+      "item_id": "1042",
+      "name": "Dagger",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 300,
+        "sell": 210
+      },
+      "stats": {
+        "PercentAttackSpeedMod": 0.12
+      }
+    },
+    {
+      "item_id": "1043",
+      "name": "Recurve Bow",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 700,
+        "sell": 490
+      },
+      "stats": {
+        "PercentAttackSpeedMod": 0.15
+      }
+    },
+    {
+      "item_id": "1052",
+      "name": "Amplifying Tome",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 400,
+        "sell": 280
+      },
+      "stats": {
+        "FlatMagicDamageMod": 20
+      }
+    },
+    {
+      "item_id": "1053",
+      "name": "Vampiric Scepter",
+      "gold": {
+        "base": 550,
+        "purchasable": true,
+        "total": 900,
+        "sell": 630
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 15,
+        "PercentLifeStealMod": 0.07
+      }
+    },
+    {
+      "item_id": "1054",
+      "name": "Doran's Shield",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 450,
+        "sell": 180
+      },
+      "stats": {
+        "FlatHPPoolMod": 110,
+        "FlatHPRegenMod": 0.8
+      }
+    },
+    {
+      "item_id": "1055",
+      "name": "Doran's Blade",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 450,
+        "sell": 180
+      },
+      "stats": {
+        "FlatHPPoolMod": 100,
+        "FlatPhysicalDamageMod": 10,
+        "PercentLifeStealMod": 0.035
+      }
+    },
+    {
+      "item_id": "1056",
+      "name": "Doran's Ring",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 400,
+        "sell": 160
+      },
+      "stats": {
+        "FlatHPPoolMod": 90,
+        "FlatMagicDamageMod": 18
+      }
+    },
+    {
+      "item_id": "1057",
+      "name": "Negatron Cloak",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 900,
+        "sell": 630
+      },
+      "stats": {
+        "FlatSpellBlockMod": 50
+      }
+    },
+    {
+      "item_id": "1058",
+      "name": "Needlessly Large Rod",
+      "gold": {
+        "base": 1250,
+        "purchasable": true,
+        "total": 1250,
+        "sell": 875
+      },
+      "stats": {
+        "FlatMagicDamageMod": 70
+      }
+    },
+    {
+      "item_id": "1082",
+      "name": "Dark Seal",
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 350,
+        "sell": 140
+      },
+      "stats": {
+        "FlatHPPoolMod": 50,
+        "FlatMagicDamageMod": 15
+      }
+    },
+    {
+      "item_id": "1083",
+      "name": "Cull",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 450,
+        "sell": 180
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 7
+      }
+    },
+    {
+      "item_id": "2015",
+      "name": "Kircheis Shard",
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 700,
+        "sell": 490
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 15
+      }
+    },
+    {
+      "item_id": "2019",
+      "name": "Steel Sigil",
+      "gold": {
+        "base": 150,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatArmorMod": 30,
+        "FlatPhysicalDamageMod": 15
+      }
+    },
+    {
+      "item_id": "2020",
+      "name": "The Brutalizer",
+      "gold": {
+        "base": 212,
+        "purchasable": true,
+        "total": 1337,
+        "sell": 936
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 25
+      }
+    },
+    {
+      "item_id": "2021",
+      "name": "Tunneler",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 1150,
+        "sell": 805
+      },
+      "stats": {
+        "FlatHPPoolMod": 250,
+        "FlatPhysicalDamageMod": 15
+      }
+    },
+    {
+      "item_id": "2065",
+      "name": "Shurelya's Battlesong",
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 2200,
+        "sell": 1540
+      },
+      "stats": {
+        "FlatMagicDamageMod": 55,
+        "PercentMovementSpeedMod": 0.08
+      }
+    },
+    {
+      "item_id": "2420",
+      "name": "Seeker's Armguard",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 1600,
+        "sell": 640
+      },
+      "stats": {
+        "FlatMagicDamageMod": 45,
+        "FlatArmorMod": 25
+      }
+    },
+    {
+      "item_id": "2502",
+      "name": "Unending Despair",
+      "gold": {
+        "base": 800,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatHPPoolMod": 400,
+        "FlatArmorMod": 55
+      }
+    },
+    {
+      "item_id": "2504",
+      "name": "Kaenic Rookern",
+      "gold": {
+        "base": 750,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatSpellBlockMod": 80,
+        "FlatHPPoolMod": 400
+      }
+    },
+    {
+      "item_id": "3002",
+      "name": "Trailblazer",
+      "gold": {
+        "base": 900,
+        "purchasable": true,
+        "total": 2500,
+        "sell": 1750
+      },
+      "stats": {
+        "FlatHPPoolMod": 200,
+        "FlatArmorMod": 40,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "3003",
+      "name": "Archangel's Staff",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatMPPoolMod": 600,
+        "FlatMagicDamageMod": 80
+      }
+    },
+    {
+      "item_id": "3004",
+      "name": "Manamune",
+      "gold": {
+        "base": 1050,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatMPPoolMod": 500,
+        "FlatPhysicalDamageMod": 35
+      }
+    },
+    {
+      "item_id": "3006",
+      "name": "Berserker's Greaves",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatMovementSpeedMod": 45,
+        "PercentAttackSpeedMod": 0.35
+      }
+    },
+    {
+      "item_id": "3009",
+      "name": "Boots of Swiftness",
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "total": 900,
+        "sell": 630
+      },
+      "stats": {
+        "FlatMovementSpeedMod": 60
+      }
+    },
+    {
+      "item_id": "3020",
+      "name": "Sorcerer's Shoes",
+      "gold": {
+        "base": 800,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatMovementSpeedMod": 45
+      }
+    },
+    {
+      "item_id": "3024",
+      "name": "Glacial Buckler",
+      "gold": {
+        "base": 50,
+        "purchasable": true,
+        "total": 950,
+        "sell": 665
+      },
+      "stats": {
+        "FlatMPPoolMod": 250,
+        "FlatArmorMod": 20
+      }
+    },
+    {
+      "item_id": "3026",
+      "name": "Guardian Angel",
+      "gold": {
+        "base": 800,
+        "purchasable": true,
+        "total": 3200,
+        "sell": 1280
+      },
+      "stats": {
+        "FlatArmorMod": 45,
+        "FlatPhysicalDamageMod": 55
+      }
+    },
+    {
+      "item_id": "3031",
+      "name": "Infinity Edge",
+      "gold": {
+        "base": 525,
+        "purchasable": true,
+        "total": 3300,
+        "sell": 2310
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 65
+      }
+    },
+    {
+      "item_id": "3033",
+      "name": "Mortal Reminder",
+      "gold": {
+        "base": 150,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 40
+      }
+    },
+    {
+      "item_id": "3035",
+      "name": "Last Whisper",
+      "gold": {
+        "base": 750,
+        "purchasable": true,
+        "total": 1450,
+        "sell": 1015
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 20
+      }
+    },
+    {
+      "item_id": "3036",
+      "name": "Lord Dominik's Regards",
+      "gold": {
+        "base": 950,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 40
+      }
+    },
+    {
+      "item_id": "3041",
+      "name": "Mejai's Soulstealer",
+      "gold": {
+        "base": 1150,
+        "purchasable": true,
+        "total": 1500,
+        "sell": 1050
+      },
+      "stats": {
+        "FlatHPPoolMod": 100,
+        "FlatMagicDamageMod": 20
+      }
+    },
+    {
+      "item_id": "3044",
+      "name": "Phage",
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatHPPoolMod": 200,
+        "FlatPhysicalDamageMod": 15
+      }
+    },
+    {
+      "item_id": "3046",
+      "name": "Phantom Dancer",
+      "gold": {
+        "base": 800,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 20,
+        "PercentAttackSpeedMod": 0.3,
+        "PercentMovementSpeedMod": 0.1
+      }
+    },
+    {
+      "item_id": "3047",
+      "name": "Plated Steelcaps",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatMovementSpeedMod": 45,
+        "FlatArmorMod": 20
+      }
+    },
+    {
+      "item_id": "3050",
+      "name": "Zeke's Convergence",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 2200,
+        "sell": 1540
+      },
+      "stats": {
+        "FlatMPPoolMod": 250,
+        "FlatHPPoolMod": 200,
+        "FlatArmorMod": 30
+      }
+    },
+    {
+      "item_id": "3051",
+      "name": "Hearthbound Axe",
+      "gold": {
+        "base": 200,
+        "purchasable": true,
+        "total": 1150,
+        "sell": 805
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 15,
+        "PercentAttackSpeedMod": 0.25
+      }
+    },
+    {
+      "item_id": "3053",
+      "name": "Sterak's Gage",
+      "gold": {
+        "base": 575,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatHPPoolMod": 400
+      }
+    },
+    {
+      "item_id": "3065",
+      "name": "Spirit Visage",
+      "gold": {
+        "base": 850,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatSpellBlockMod": 60,
+        "FlatHPPoolMod": 450
+      }
+    },
+    {
+      "item_id": "3066",
+      "name": "Winged Moonplate",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 800,
+        "sell": 560
+      },
+      "stats": {
+        "FlatHPPoolMod": 150,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "3067",
+      "name": "Kindlegem",
+      "gold": {
+        "base": 150,
+        "purchasable": true,
+        "total": 800,
+        "sell": 560
+      },
+      "stats": {
+        "FlatHPPoolMod": 200
+      }
+    },
+    {
+      "item_id": "3068",
+      "name": "Sunfire Aegis",
+      "gold": {
+        "base": 900,
+        "purchasable": true,
+        "total": 2700,
+        "sell": 1890
+      },
+      "stats": {
+        "FlatHPPoolMod": 500,
+        "FlatArmorMod": 50
+      }
+    },
+    {
+      "item_id": "3070",
+      "name": "Tear of the Goddess",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 400,
+        "sell": 280
+      },
+      "stats": {
+        "FlatMPPoolMod": 240
+      }
+    },
+    {
+      "item_id": "3071",
+      "name": "Black Cleaver",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatHPPoolMod": 400,
+        "FlatPhysicalDamageMod": 55
+      }
+    },
+    {
+      "item_id": "3072",
+      "name": "Bloodthirster",
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "total": 3400,
+        "sell": 2380
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 55,
+        "PercentLifeStealMod": 0.18
+      }
+    },
+    {
+      "item_id": "3073",
+      "name": "Experimental Hexplate",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatHPPoolMod": 300,
+        "FlatPhysicalDamageMod": 55,
+        "PercentAttackSpeedMod": 0.25
+      }
+    },
+    {
+      "item_id": "3074",
+      "name": "Ravenous Hydra",
+      "gold": {
+        "base": 100,
+        "purchasable": true,
+        "total": 3300,
+        "sell": 2310
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 70,
+        "PercentLifeStealMod": 0.12
+      }
+    },
+    {
+      "item_id": "3075",
+      "name": "Thornmail",
+      "gold": {
+        "base": 1000,
+        "purchasable": true,
+        "total": 2700,
+        "sell": 1890
+      },
+      "stats": {
+        "FlatHPPoolMod": 350,
+        "FlatArmorMod": 70
+      }
+    },
+    {
+      "item_id": "3076",
+      "name": "Bramble Vest",
+      "gold": {
+        "base": 200,
+        "purchasable": true,
+        "total": 800,
+        "sell": 560
+      },
+      "stats": {
+        "FlatArmorMod": 30
+      }
+    },
+    {
+      "item_id": "3077",
+      "name": "Tiamat",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 1200,
+        "sell": 840
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 20
+      }
+    },
+    {
+      "item_id": "3078",
+      "name": "Trinity Force",
+      "gold": {
+        "base": 183,
+        "purchasable": true,
+        "total": 3333,
+        "sell": 2333
+      },
+      "stats": {
+        "FlatHPPoolMod": 300,
+        "FlatPhysicalDamageMod": 45,
+        "PercentAttackSpeedMod": 0.33
+      }
+    },
+    {
+      "item_id": "3082",
+      "name": "Warden's Mail",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 1000,
+        "sell": 700
+      },
+      "stats": {
+        "FlatArmorMod": 40
+      }
+    },
+    {
+      "item_id": "3083",
+      "name": "Warmog's Armor",
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "total": 3100,
+        "sell": 2170
+      },
+      "stats": {
+        "FlatHPPoolMod": 750,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "3084",
+      "name": "Heartsteel",
+      "gold": {
+        "base": 900,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatHPPoolMod": 900
+      }
+    },
+    {
+      "item_id": "3085",
+      "name": "Runaan's Hurricane",
+      "gold": {
+        "base": 1000,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "PercentAttackSpeedMod": 0.4,
+        "PercentMovementSpeedMod": 0.07
+      }
+    },
+    {
+      "item_id": "3086",
+      "name": "Zeal",
+      "gold": {
+        "base": 200,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.15,
+        "PercentAttackSpeedMod": 0.15,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "3087",
+      "name": "Statikk Shiv",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 50,
+        "PercentAttackSpeedMod": 0.3
+      }
+    },
+    {
+      "item_id": "3089",
+      "name": "Rabadon's Deathcap",
+      "gold": {
+        "base": 1100,
+        "purchasable": true,
+        "total": 3600,
+        "sell": 2520
+      },
+      "stats": {
+        "FlatMagicDamageMod": 140
+      }
+    },
+    {
+      "item_id": "3091",
+      "name": "Wit's End",
+      "gold": {
+        "base": 900,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatSpellBlockMod": 50,
+        "PercentAttackSpeedMod": 0.55
+      }
+    },
+    {
+      "item_id": "3094",
+      "name": "Rapid Firecannon",
+      "gold": {
+        "base": 850,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 30,
+        "PercentAttackSpeedMod": 0.2,
+        "PercentMovementSpeedMod": 0.07
+      }
+    },
+    {
+      "item_id": "3095",
+      "name": "Stormrazor",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 3100,
+        "sell": 2170
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 60,
+        "PercentAttackSpeedMod": 0.15
+      }
+    },
+    {
+      "item_id": "3100",
+      "name": "Lich Bane",
+      "gold": {
+        "base": 250,
+        "purchasable": true,
+        "total": 3100,
+        "sell": 2170
+      },
+      "stats": {
+        "FlatMagicDamageMod": 100,
+        "PercentMovementSpeedMod": 0.08
+      }
+    },
+    {
+      "item_id": "3102",
+      "name": "Banshee's Veil",
+      "gold": {
+        "base": 150,
+        "purchasable": true,
+        "total": 3100,
+        "sell": 2170
+      },
+      "stats": {
+        "FlatSpellBlockMod": 50,
+        "FlatMagicDamageMod": 120
+      }
+    },
+    {
+      "item_id": "3107",
+      "name": "Redemption",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 2300,
+        "sell": 1610
+      },
+      "stats": {
+        "FlatHPPoolMod": 200
+      }
+    },
+    {
+      "item_id": "3108",
+      "name": "Fiendish Codex",
+      "gold": {
+        "base": 250,
+        "purchasable": true,
+        "total": 900,
+        "sell": 630
+      },
+      "stats": {
+        "FlatMagicDamageMod": 25
+      }
+    },
+    {
+      "item_id": "3109",
+      "name": "Knight's Vow",
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "total": 2200,
+        "sell": 1540
+      },
+      "stats": {
+        "FlatHPPoolMod": 300,
+        "FlatArmorMod": 45
+      }
+    },
+    {
+      "item_id": "3110",
+      "name": "Frozen Heart",
+      "gold": {
+        "base": 550,
+        "purchasable": true,
+        "total": 2500,
+        "sell": 1750
+      },
+      "stats": {
+        "FlatMPPoolMod": 400,
+        "FlatArmorMod": 65
+      }
+    },
+    {
+      "item_id": "3111",
+      "name": "Mercury's Treads",
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatSpellBlockMod": 25,
+        "FlatMovementSpeedMod": 45
+      }
+    },
+    {
+      "item_id": "3113",
+      "name": "Aether Wisp",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 850,
+        "sell": 595
+      },
+      "stats": {
+        "FlatMagicDamageMod": 30,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "3115",
+      "name": "Nashor's Tooth",
+      "gold": {
+        "base": 550,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatMagicDamageMod": 90,
+        "PercentAttackSpeedMod": 0.5
+      }
+    },
+    {
+      "item_id": "3116",
+      "name": "Rylai's Crystal Scepter",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 2600,
+        "sell": 1820
+      },
+      "stats": {
+        "FlatHPPoolMod": 400,
+        "FlatMagicDamageMod": 75
+      }
+    },
+    {
+      "item_id": "3117",
+      "name": "Mobility Boots",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 1000,
+        "sell": 700
+      },
+      "stats": {
+        "FlatMovementSpeedMod": 115
+      }
+    },
+    {
+      "item_id": "3118",
+      "name": "Malignance",
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "total": 2700,
+        "sell": 1890
+      },
+      "stats": {
+        "FlatMPPoolMod": 600,
+        "FlatMagicDamageMod": 80
+      }
+    },
+    {
+      "item_id": "3119",
+      "name": "Winter's Approach",
+      "gold": {
+        "base": 800,
+        "purchasable": true,
+        "total": 2400,
+        "sell": 1680
+      },
+      "stats": {
+        "FlatMPPoolMod": 500,
+        "FlatHPPoolMod": 400
+      }
+    },
+    {
+      "item_id": "3123",
+      "name": "Executioner's Calling",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 800,
+        "sell": 560
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 15
+      }
+    },
+    {
+      "item_id": "3124",
+      "name": "Guinsoo's Rageblade",
+      "gold": {
+        "base": 1025,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatMagicDamageMod": 35,
+        "FlatPhysicalDamageMod": 35,
+        "PercentAttackSpeedMod": 0.25
+      }
+    },
+    {
+      "item_id": "3133",
+      "name": "Caulfield's Warhammer",
+      "gold": {
+        "base": 150,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 20
+      }
+    },
+    {
+      "item_id": "3134",
+      "name": "Serrated Dirk",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 1000,
+        "sell": 700
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 20
+      }
+    },
+    {
+      "item_id": "3135",
+      "name": "Void Staff",
+      "gold": {
+        "base": 1050,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatMagicDamageMod": 80
+      }
+    },
+    {
+      "item_id": "3137",
+      "name": "Cryptbloom",
+      "gold": {
+        "base": 850,
+        "purchasable": true,
+        "total": 2850,
+        "sell": 1995
+      },
+      "stats": {
+        "FlatMagicDamageMod": 70
+      }
+    },
+    {
+      "item_id": "3139",
+      "name": "Mercurial Scimitar",
+      "gold": {
+        "base": 225,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatSpellBlockMod": 50,
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 40
+      }
+    },
+    {
+      "item_id": "3140",
+      "name": "Quicksilver Sash",
+      "gold": {
+        "base": 850,
+        "purchasable": true,
+        "total": 1300,
+        "sell": 910
+      },
+      "stats": {
+        "FlatSpellBlockMod": 30
+      }
+    },
+    {
+      "item_id": "3142",
+      "name": "Youmuu's Ghostblade",
+      "gold": {
+        "base": 800,
+        "purchasable": true,
+        "total": 2700,
+        "sell": 1890
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 60
+      }
+    },
+    {
+      "item_id": "3143",
+      "name": "Randuin's Omen",
+      "gold": {
+        "base": 800,
+        "purchasable": true,
+        "total": 2700,
+        "sell": 1890
+      },
+      "stats": {
+        "FlatHPPoolMod": 400,
+        "FlatArmorMod": 55
+      }
+    },
+    {
+      "item_id": "3145",
+      "name": "Hextech Alternator",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatMagicDamageMod": 45
+      }
+    },
+    {
+      "item_id": "3147",
+      "name": "Haunting Guise",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 1300,
+        "sell": 910
+      },
+      "stats": {
+        "FlatHPPoolMod": 200,
+        "FlatMagicDamageMod": 30
+      }
+    },
+    {
+      "item_id": "3152",
+      "name": "Hextech Rocketbelt",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 2600,
+        "sell": 1820
+      },
+      "stats": {
+        "FlatHPPoolMod": 300,
+        "FlatMagicDamageMod": 70
+      }
+    },
+    {
+      "item_id": "3153",
+      "name": "Blade of The Ruined King",
+      "gold": {
+        "base": 725,
+        "purchasable": true,
+        "total": 3200,
+        "sell": 2240
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 40,
+        "PercentAttackSpeedMod": 0.25,
+        "PercentLifeStealMod": 0.08
+      }
+    },
+    {
+      "item_id": "3155",
+      "name": "Hexdrinker",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 1300,
+        "sell": 910
+      },
+      "stats": {
+        "FlatSpellBlockMod": 35,
+        "FlatPhysicalDamageMod": 25
+      }
+    },
+    {
+      "item_id": "3156",
+      "name": "Maw of Malmortius",
+      "gold": {
+        "base": 275,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatSpellBlockMod": 50,
+        "FlatPhysicalDamageMod": 65
+      }
+    },
+    {
+      "item_id": "3157",
+      "name": "Zhonya's Hourglass",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 3250,
+        "sell": 2275
+      },
+      "stats": {
+        "FlatMagicDamageMod": 120,
+        "FlatArmorMod": 50
+      }
+    },
+    {
+      "item_id": "3158",
+      "name": "Ionian Boots of Lucidity",
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 900,
+        "sell": 630
+      },
+      "stats": {
+        "FlatMovementSpeedMod": 45
+      }
+    },
+    {
+      "item_id": "3161",
+      "name": "Spear of Shojin",
+      "gold": {
+        "base": 325,
+        "purchasable": true,
+        "total": 3100,
+        "sell": 2170
+      },
+      "stats": {
+        "FlatHPPoolMod": 300,
+        "FlatPhysicalDamageMod": 55
+      }
+    },
+    {
+      "item_id": "3165",
+      "name": "Morellonomicon",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 2200,
+        "sell": 1540
+      },
+      "stats": {
+        "FlatMagicDamageMod": 90
+      }
+    },
+    {
+      "item_id": "3179",
+      "name": "Umbral Glaive",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 2600,
+        "sell": 1820
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 50
+      }
+    },
+    {
+      "item_id": "3181",
+      "name": "Hullbreaker",
+      "gold": {
+        "base": 75,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatHPPoolMod": 350,
+        "FlatPhysicalDamageMod": 65,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "3190",
+      "name": "Locket of the Iron Solari",
+      "gold": {
+        "base": 650,
+        "purchasable": true,
+        "total": 2200,
+        "sell": 1540
+      },
+      "stats": {
+        "FlatSpellBlockMod": 30,
+        "FlatHPPoolMod": 200,
+        "FlatArmorMod": 30
+      }
+    },
+    {
+      "item_id": "3211",
+      "name": "Spectre's Cowl",
+      "gold": {
+        "base": 100,
+        "purchasable": true,
+        "total": 1250,
+        "sell": 875
+      },
+      "stats": {
+        "FlatSpellBlockMod": 25,
+        "FlatHPPoolMod": 200
+      }
+    },
+    {
+      "item_id": "3222",
+      "name": "Mikael's Blessing",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 2300,
+        "sell": 1610
+      },
+      "stats": {
+        "FlatHPPoolMod": 250
+      }
+    },
+    {
+      "item_id": "3302",
+      "name": "Terminus",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 40,
+        "PercentAttackSpeedMod": 0.3
+      }
+    },
+    {
+      "item_id": "3504",
+      "name": "Ardent Censer",
+      "gold": {
+        "base": 650,
+        "purchasable": true,
+        "total": 2300,
+        "sell": 1610
+      },
+      "stats": {
+        "FlatMagicDamageMod": 50,
+        "PercentMovementSpeedMod": 0.08
+      }
+    },
+    {
+      "item_id": "3508",
+      "name": "Essence Reaver",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 60
+      }
+    },
+    {
+      "item_id": "3742",
+      "name": "Dead Man's Plate",
+      "gold": {
+        "base": 900,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatHPPoolMod": 300,
+        "FlatArmorMod": 45,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "3748",
+      "name": "Titanic Hydra",
+      "gold": {
+        "base": 550,
+        "purchasable": true,
+        "total": 3300,
+        "sell": 2310
+      },
+      "stats": {
+        "FlatHPPoolMod": 550,
+        "FlatPhysicalDamageMod": 50
+      }
+    },
+    {
+      "item_id": "3801",
+      "name": "Crystalline Bracer",
+      "gold": {
+        "base": 100,
+        "purchasable": true,
+        "total": 800,
+        "sell": 560
+      },
+      "stats": {
+        "FlatHPPoolMod": 200
+      }
+    },
+    {
+      "item_id": "3802",
+      "name": "Lost Chapter",
+      "gold": {
+        "base": 200,
+        "purchasable": true,
+        "total": 1200,
+        "sell": 840
+      },
+      "stats": {
+        "FlatMPPoolMod": 300,
+        "FlatMagicDamageMod": 40
+      }
+    },
+    {
+      "item_id": "3803",
+      "name": "Catalyst of Aeons",
+      "gold": {
+        "base": 550,
+        "purchasable": true,
+        "total": 1300,
+        "sell": 910
+      },
+      "stats": {
+        "FlatMPPoolMod": 300,
+        "FlatHPPoolMod": 350
+      }
+    },
+    {
+      "item_id": "3814",
+      "name": "Edge of Night",
+      "gold": {
+        "base": 650,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatHPPoolMod": 250,
+        "FlatPhysicalDamageMod": 50
+      }
+    },
+    {
+      "item_id": "3865",
+      "name": "World Atlas",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 400,
+        "sell": 160
+      },
+      "stats": {
+        "FlatHPPoolMod": 30
+      }
+    },
+    {
+      "item_id": "3869",
+      "name": "Celestial Opposition",
+      "gold": {
+        "base": 0,
+        "purchasable": true,
+        "total": 400,
+        "sell": 160
+      },
+      "stats": {
+        "FlatHPPoolMod": 200
+      }
+    },
+    {
+      "item_id": "3870",
+      "name": "Dream Maker",
+      "gold": {
+        "base": 0,
+        "purchasable": true,
+        "total": 400,
+        "sell": 160
+      },
+      "stats": {
+        "FlatHPPoolMod": 200
+      }
+    },
+    {
+      "item_id": "3871",
+      "name": "Zaz'Zak's Realmspike",
+      "gold": {
+        "base": 0,
+        "purchasable": true,
+        "total": 400,
+        "sell": 160
+      },
+      "stats": {
+        "FlatHPPoolMod": 200
+      }
+    },
+    {
+      "item_id": "3876",
+      "name": "Solstice Sleigh",
+      "gold": {
+        "base": 0,
+        "purchasable": true,
+        "total": 400,
+        "sell": 160
+      },
+      "stats": {
+        "FlatHPPoolMod": 200
+      }
+    },
+    {
+      "item_id": "3877",
+      "name": "Bloodsong",
+      "gold": {
+        "base": 0,
+        "purchasable": true,
+        "total": 400,
+        "sell": 160
+      },
+      "stats": {
+        "FlatHPPoolMod": 200
+      }
+    },
+    {
+      "item_id": "3916",
+      "name": "Oblivion Orb",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 800,
+        "sell": 560
+      },
+      "stats": {
+        "FlatMagicDamageMod": 30
+      }
+    },
+    {
+      "item_id": "4005",
+      "name": "Imperial Mandate",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 2300,
+        "sell": 1610
+      },
+      "stats": {
+        "FlatMagicDamageMod": 60
+      }
+    },
+    {
+      "item_id": "4401",
+      "name": "Force of Nature",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatSpellBlockMod": 55,
+        "FlatHPPoolMod": 400,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "4628",
+      "name": "Horizon Focus",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 2700,
+        "sell": 1890
+      },
+      "stats": {
+        "FlatMagicDamageMod": 90
+      }
+    },
+    {
+      "item_id": "4629",
+      "name": "Cosmic Drive",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatHPPoolMod": 250,
+        "FlatMagicDamageMod": 80,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "4630",
+      "name": "Blighting Jewel",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatMagicDamageMod": 25
+      }
+    },
+    {
+      "item_id": "4632",
+      "name": "Verdant Barrier",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 1700,
+        "sell": 1190
+      },
+      "stats": {
+        "FlatSpellBlockMod": 30,
+        "FlatMagicDamageMod": 40
+      }
+    },
+    {
+      "item_id": "4633",
+      "name": "Riftmaker",
+      "gold": {
+        "base": 900,
+        "purchasable": true,
+        "total": 3100,
+        "sell": 2170
+      },
+      "stats": {
+        "FlatHPPoolMod": 350,
+        "FlatMagicDamageMod": 80
+      }
+    },
+    {
+      "item_id": "4638",
+      "name": "Watchful Wardstone",
+      "gold": {
+        "base": 1100,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "stats": {
+        "FlatSpellBlockMod": 15,
+        "FlatHPPoolMod": 150,
+        "FlatArmorMod": 10
+      }
+    },
+    {
+      "item_id": "4642",
+      "name": "Bandleglass Mirror",
+      "gold": {
+        "base": 100,
+        "purchasable": true,
+        "total": 1000,
+        "sell": 700
+      },
+      "stats": {
+        "FlatMagicDamageMod": 20
+      }
+    },
+    {
+      "item_id": "4643",
+      "name": "Vigilant Wardstone",
+      "gold": {
+        "base": 1200,
+        "purchasable": true,
+        "total": 2300,
+        "sell": 1610
+      },
+      "stats": {
+        "FlatSpellBlockMod": 30,
+        "FlatHPPoolMod": 250,
+        "FlatArmorMod": 25
+      }
+    },
+    {
+      "item_id": "4645",
+      "name": "Shadowflame",
+      "gold": {
+        "base": 850,
+        "purchasable": true,
+        "total": 3200,
+        "sell": 2240
+      },
+      "stats": {
+        "FlatMagicDamageMod": 120
+      }
+    },
+    {
+      "item_id": "4646",
+      "name": "Stormsurge",
+      "gold": {
+        "base": 950,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatMagicDamageMod": 95,
+        "PercentMovementSpeedMod": 0.08
+      }
+    },
+    {
+      "item_id": "6333",
+      "name": "Death's Dance",
+      "gold": {
+        "base": 1000,
+        "purchasable": true,
+        "total": 3200,
+        "sell": 2240
+      },
+      "stats": {
+        "FlatArmorMod": 40,
+        "FlatPhysicalDamageMod": 55
+      }
+    },
+    {
+      "item_id": "6609",
+      "name": "Chempunk Chainsword",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatHPPoolMod": 250,
+        "FlatPhysicalDamageMod": 55
+      }
+    },
+    {
+      "item_id": "6610",
+      "name": "Sundered Sky",
+      "gold": {
+        "base": 850,
+        "purchasable": true,
+        "total": 3100,
+        "sell": 2170
+      },
+      "stats": {
+        "FlatHPPoolMod": 450,
+        "FlatPhysicalDamageMod": 45
+      }
+    },
+    {
+      "item_id": "6616",
+      "name": "Staff of Flowing Water",
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "total": 2300,
+        "sell": 1610
+      },
+      "stats": {
+        "FlatMagicDamageMod": 40
+      }
+    },
+    {
+      "item_id": "6617",
+      "name": "Moonstone Renewer",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 2200,
+        "sell": 1540
+      },
+      "stats": {
+        "FlatHPPoolMod": 250,
+        "FlatMagicDamageMod": 30
+      }
+    },
+    {
+      "item_id": "6620",
+      "name": "Echoes of Helia",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 2200,
+        "sell": 1540
+      },
+      "stats": {
+        "FlatHPPoolMod": 200,
+        "FlatMagicDamageMod": 40
+      }
+    },
+    {
+      "item_id": "6621",
+      "name": "Dawncore",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 2700,
+        "sell": 1890
+      },
+      "stats": {
+        "FlatMagicDamageMod": 40
+      }
+    },
+    {
+      "item_id": "6631",
+      "name": "Stridebreaker",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 3300,
+        "sell": 2310
+      },
+      "stats": {
+        "FlatHPPoolMod": 450,
+        "FlatPhysicalDamageMod": 50,
+        "PercentAttackSpeedMod": 0.3
+      }
+    },
+    {
+      "item_id": "6653",
+      "name": "Liandry's Torment",
+      "gold": {
+        "base": 850,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatHPPoolMod": 300,
+        "FlatMagicDamageMod": 90
+      }
+    },
+    {
+      "item_id": "6655",
+      "name": "Luden's Companion",
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatMPPoolMod": 600,
+        "FlatMagicDamageMod": 95
+      }
+    },
+    {
+      "item_id": "6657",
+      "name": "Rod of Ages",
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 2600,
+        "sell": 1820
+      },
+      "stats": {
+        "FlatMPPoolMod": 400,
+        "FlatHPPoolMod": 400,
+        "FlatMagicDamageMod": 50
+      }
+    },
+    {
+      "item_id": "6660",
+      "name": "Bami's Cinder",
+      "gold": {
+        "base": 200,
+        "purchasable": true,
+        "total": 1000,
+        "sell": 700
+      },
+      "stats": {
+        "FlatHPPoolMod": 300
+      }
+    },
+    {
+      "item_id": "6662",
+      "name": "Iceborn Gauntlet",
+      "gold": {
+        "base": 500,
+        "purchasable": true,
+        "total": 2600,
+        "sell": 1820
+      },
+      "stats": {
+        "FlatHPPoolMod": 300,
+        "FlatArmorMod": 50
+      }
+    },
+    {
+      "item_id": "6664",
+      "name": "Hollow Radiance",
+      "gold": {
+        "base": 550,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatSpellBlockMod": 40,
+        "FlatHPPoolMod": 600
+      }
+    },
+    {
+      "item_id": "6665",
+      "name": "Jak'Sho, The Protean",
+      "gold": {
+        "base": 1100,
+        "purchasable": true,
+        "total": 3200,
+        "sell": 2240
+      },
+      "stats": {
+        "FlatSpellBlockMod": 50,
+        "FlatHPPoolMod": 300,
+        "FlatArmorMod": 50
+      }
+    },
+    {
+      "item_id": "6670",
+      "name": "Noonquiver",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 1300,
+        "sell": 910
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 30,
+        "PercentAttackSpeedMod": 0.15
+      }
+    },
+    {
+      "item_id": "6672",
+      "name": "Kraken Slayer",
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 40,
+        "PercentAttackSpeedMod": 0.35
+      }
+    },
+    {
+      "item_id": "6673",
+      "name": "Immortal Shieldbow",
+      "gold": {
+        "base": 625,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 50,
+        "PercentLifeStealMod": 0.12
+      }
+    },
+    {
+      "item_id": "6675",
+      "name": "Navori Quickblades",
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 3300,
+        "sell": 2310
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 65
+      }
+    },
+    {
+      "item_id": "6676",
+      "name": "The Collector",
+      "gold": {
+        "base": 625,
+        "purchasable": true,
+        "total": 3100,
+        "sell": 2170
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 55
+      }
+    },
+    {
+      "item_id": "6690",
+      "name": "Rectrix",
+      "gold": {
+        "base": 550,
+        "purchasable": true,
+        "total": 900,
+        "sell": 630
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 20,
+        "PercentMovementSpeedMod": 0.04
+      }
+    },
+    {
+      "item_id": "6692",
+      "name": "Eclipse",
+      "gold": {
+        "base": 475,
+        "purchasable": true,
+        "total": 2800,
+        "sell": 1960
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 70
+      }
+    },
+    {
+      "item_id": "6694",
+      "name": "Serylda's Grudge",
+      "gold": {
+        "base": 413,
+        "purchasable": true,
+        "total": 3200,
+        "sell": 2240
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 45
+      }
+    },
+    {
+      "item_id": "6695",
+      "name": "Serpent's Fang",
+      "gold": {
+        "base": 625,
+        "purchasable": true,
+        "total": 2500,
+        "sell": 1750
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 55
+      }
+    },
+    {
+      "item_id": "6696",
+      "name": "Axiom Arc",
+      "gold": {
+        "base": 563,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 55
+      }
+    },
+    {
+      "item_id": "6697",
+      "name": "Hubris",
+      "gold": {
+        "base": 900,
+        "purchasable": true,
+        "total": 3000,
+        "sell": 2100
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 60
+      }
+    },
+    {
+      "item_id": "6698",
+      "name": "Profane Hydra",
+      "gold": {
+        "base": 763,
+        "purchasable": true,
+        "total": 3300,
+        "sell": 2310
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 60
+      }
+    },
+    {
+      "item_id": "6699",
+      "name": "Voltaic Cyclosword",
+      "gold": {
+        "base": 863,
+        "purchasable": true,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 55
+      }
+    },
+    {
+      "item_id": "6701",
+      "name": "Opportunity",
+      "gold": {
+        "base": 800,
+        "purchasable": true,
+        "total": 2700,
+        "sell": 1890
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 55,
+        "PercentMovementSpeedMod": 0.05
+      }
+    },
+    {
+      "item_id": "8001",
+      "name": "Anathema's Chains",
+      "gold": {
+        "base": 800,
+        "purchasable": true,
+        "total": 2500,
+        "sell": 1750
+      },
+      "stats": {
+        "FlatHPPoolMod": 650
+      }
+    },
+    {
+      "item_id": "8020",
+      "name": "Abyssal Mask",
+      "gold": {
+        "base": 700,
+        "purchasable": true,
+        "total": 2400,
+        "sell": 1680
+      },
+      "stats": {
+        "FlatSpellBlockMod": 60,
+        "FlatHPPoolMod": 300
+      }
+    }
+  ]
+}

@@ -2,33 +2,44 @@ import pandas as pd
 import os
 
 
-class DataProcessor:
-    def __init__(self, possible_versions):
-        self.possible_versions = possible_versions
-        self.data_by_version = {}
+#Loading Dataset
+dataitem = pd.read_csv('lol_items_stats.csv', sep=',')
 
-    def load_data(self):
-        for version in self.possible_versions:
-            # Load CSV file
-            data = pd.read_csv(os.path.join("Item Data",f"{version}_item_data.csv"))
-            self.data_by_version[version] = data
+#Transfroming percentage based stats into decimal, aka 0.12 -> 12, to standerize stats
+dataitem[['AS','Crit','LS','APen','MP5','HSP','OVamp','MPen','HP5']]=dataitem[['AS','Crit','LS','APen','MP5','HSP','OVamp','MPen','HP5']]*100
 
-    def preprocess_data(self):
-        for version, data in self.data_by_version.items():
-            # Calculate average stat per gold for each stat
-            stats_columns = [col for col in data.columns if col not in ['item_id', 'name', 'total_gold']]
-            for stat_col in stats_columns:
-                data[f'avg_{stat_col}_per_gold'] = data[stat_col] / data['total_gold']
-            # Compare average stat per gold across different versions (if needed)
+dataitemstat = dataitem[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']]
+#print(dataitemstat)
 
-    def split_data(self, test_indices, verification_indices):
-        # Combine the processed data for all versions into a single dataset
-        print(self.data_by_version)
-        all_data = pd.concat(self.data_by_version.values(), ignore_index=True)
 
-        # Split the combined dataset into training, testing, and verification sets
-        train_data = all_data[~all_data.index.isin(test_indices + verification_indices)]
-        test_data = all_data.loc[test_indices]
-        verification_data = all_data.loc[verification_indices]
+itemcost = dataitem[['Item','Cost']]
+#print(itemcost)
 
-        return train_data, test_data, verification_data
+sumstat=dataitemstat.sum(axis=1)
+#print(sumstat)
+
+goldstat = pd.concat([itemcost,sumstat], axis=1)
+#print(goldstat)
+
+goldstat=goldstat.rename(columns = {0: 'Sumstat'})
+#print(goldstat)
+
+ratiocal = pd.DataFrame((goldstat.Sumstat/goldstat.Cost)*100)
+StatGoldRatio = pd.concat([goldstat,ratiocal], axis=1)
+StatGoldRatio = StatGoldRatio.sort_values(by=0)
+StatGoldRatio=StatGoldRatio.rename(columns = {0: 'Stats/Gold ratio'})
+#print(StatGoldRatio)
+
+# Step 1: Calculate the total value of the stats provided by each item
+dataitem['TotalStatsValue'] = dataitem[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']].sum(axis=1)
+
+# Step 2: Calculate the gold efficiency of each item
+dataitem['GoldEfficiency'] = dataitem['TotalStatsValue'] / dataitem['Cost']
+
+# Step 3: Print the item name and its gold efficiency
+item_efficiency = dataitem[['Item', 'GoldEfficiency']]
+#print(item_efficiency)
+
+
+print(dataitem)
+
