@@ -1,8 +1,9 @@
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
+from sklearn import metrics
 import pandas as pd
+import numpy as np
 from DataProcessor import dataitem  # imports the processed data
 
 # Loading and preprocess the dataset
@@ -14,17 +15,19 @@ y_efficiency = dataitem['GoldEfficiency']
 X_train, X_test, y_cost_train, y_cost_test = train_test_split(X, y_cost, test_size=0.2, random_state=42)
 X_train, X_test, y_efficiency_train, y_efficiency_test = train_test_split(X, y_efficiency, test_size=0.2, random_state=42)
 
-# Standardize features
+#Standardize and Scale the features
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
 # Define hyperparameters grid for tuning
 param_grid = {
-    'n_estimators': [50, 100, 200],
-    'max_depth': [None, 10, 20],
+    'n_estimators': [25, 50, 75,100],
+    'max_depth': [None,5, 10, 15,20],
     'min_samples_split': [2, 5, 10],
-    'min_samples_leaf': [1, 2, 4]
+    'min_samples_leaf': [1, 2, 4],
+    'max_features':['sqrt','log2',1,3,5,7,11],
+    'max_leaf_nodes':[None,2,4,8]
 }
 
 # Define a function for model training and evaluation
@@ -38,19 +41,24 @@ def train_and_evaluate(X_train, X_test, y_train, y_test):
     y_pred = best_model.predict(X_test)
     
     # Calculate Mean Squared Error
-    mse = mean_squared_error(y_test, y_pred)
-    
-    # Print evaluation metrics
-    print("Mean Squared Error:", mse)
-    
-    return best_model, mse
+    mse = metrics.mean_squared_error(y_test, y_pred)
+    rmse = np.sqrt(metrics.mean_squared_error(y_test,y_pred))
+    mae = metrics.mean_absolute_error(y_test, y_pred)
+    mape = np.mean(np.abs((y_test - y_pred) / np.   abs(y_test)))
+    print('Mean Absolute Error (MAE):', mse)
+    print('Mean Squared Error (MSE):', mae)
+    print('Root Mean Squared Error (RMSE):',rmse)
+    print('Mean Absolute Percentage Error (MAPE):', round(mape * 100, 2))
+    print('Accuracy:', round(100*(1 - mape), 2))
+        
+    return best_model, mse,rmse,mae,mape
 
-# Train and evaluate the model for cost prediction
+# Training and evaluating the model for cost prediction
 print("Cost Prediction:")
-best_model_cost, mse_cost = train_and_evaluate(X_train_scaled, X_test_scaled, y_cost_train, y_cost_test)
+best_model_cost, mse_cost,rmse_cost,mae_cost,mape_cost = train_and_evaluate(X_train, X_test, y_cost_train, y_cost_test)
+print("Using Model: ",best_model_cost)
 
-# Train and evaluate the model for efficiency prediction
+# Training and evaluating the model for efficiency prediction
+best_model_efficiency, mse_efficiency,rmse_efficiency,mae_efficiency,mape_efficiency = train_and_evaluate(X_train, X_test, y_efficiency_train, y_efficiency_test)
 print("\nEfficiency Prediction:")
-best_model_efficiency, mse_efficiency = train_and_evaluate(X_train_scaled, X_test_scaled, y_efficiency_train, y_efficiency_test)
-
-# Now you have the best models and their respective MSEs
+print("Using Model: ",best_model_efficiency)

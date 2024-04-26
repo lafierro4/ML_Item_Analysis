@@ -3,7 +3,7 @@ import os
 
 
 #Loading Dataset
-dataitem = pd.read_csv('lol_items_stats.csv', sep=',')
+dataitem = pd.read_csv('Item Data/lol_items_stats.csv', sep=',')
 
 #Transfroming percentage based stats into decimal, aka 0.12 -> 12, to standerize stats
 dataitem[['AS','Crit','LS','APen','MP5','HSP','OVamp','MPen','HP5']]=dataitem[['AS','Crit','LS','APen','MP5','HSP','OVamp','MPen','HP5']]*100
