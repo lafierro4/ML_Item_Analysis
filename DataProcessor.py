@@ -1,18 +1,20 @@
 import pandas as pd
 import os
 
-
 #Loading Dataset
-dataitem = pd.read_csv('Item Data/lol_items_stats.csv', sep=',')
+item_data = pd.read_csv('Item Data/lol_items_stats.csv', sep=',')
 
 #Transfroming percentage based stats into decimal, aka 0.12 -> 12, to standerize stats
-dataitem[['AS','Crit','LS','APen','MP5','HSP','OVamp','MPen','HP5']]=dataitem[['AS','Crit','LS','APen','MP5','HSP','OVamp','MPen','HP5']]*100
+def percentage_to_decimal(dataframe, columns):
+    dataframe[columns] = dataframe[columns] * 100
 
-dataitemstat = dataitem[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']]
+percentage_to_decimal(item_data, ['AS','Crit','LS','APen','MP5','HSP','OVamp','MPen','HP5'])
+
+dataitemstat = item_data[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']]
 #print(dataitemstat)
 
 
-itemcost = dataitem[['Item','Cost']]
+itemcost = item_data[['Item','Cost']]
 #print(itemcost)
 
 sumstat=dataitemstat.sum(axis=1)
@@ -31,15 +33,14 @@ StatGoldRatio=StatGoldRatio.rename(columns = {0: 'Stats/Gold ratio'})
 #print(StatGoldRatio)
 
 # Step 1: Calculate the total value of the stats provided by each item
-dataitem['TotalStatsValue'] = dataitem[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']].sum(axis=1)
+item_data['TotalStatsValue'] = item_data[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']].sum(axis=1)
 
 # Step 2: Calculate the gold efficiency of each item
-dataitem['GoldEfficiency'] = dataitem['TotalStatsValue'] / dataitem['Cost']
+item_data['GoldEfficiency'] = item_data['TotalStatsValue'] / item_data['Cost']
 
 # Step 3: Print the item name and its gold efficiency
-item_efficiency = dataitem[['Item', 'GoldEfficiency']]
+item_efficiency = item_data[['Item', 'GoldEfficiency']]
 #print(item_efficiency)
 
 
-print(dataitem)
-
+print(item_data)
