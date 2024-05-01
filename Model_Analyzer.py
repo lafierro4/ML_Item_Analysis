@@ -4,12 +4,12 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn import metrics
 import pandas as pd
 import numpy as np
-from DataProcessor import dataitem  # imports the processed data
+from DataProcessor import item_data  # imports the processed data
 
 # Loading and preprocess the dataset
-X = dataitem[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']]
-y_cost = dataitem['Cost']
-y_efficiency = dataitem['GoldEfficiency']
+X = item_data[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']]
+y_cost = item_data['Cost']
+y_efficiency = item_data['GoldEfficiency']
 
 # Spliting the dataset into training and testing sets
 X_train, X_test, y_cost_train, y_cost_test = train_test_split(X, y_cost, test_size=0.2, random_state=42)
@@ -42,14 +42,15 @@ def train_and_evaluate(X_train, X_test, y_train, y_test):
     
     # Calculate Mean Squared Error
     mse = metrics.mean_squared_error(y_test, y_pred)
-    rmse = np.sqrt(metrics.mean_squared_error(y_test,y_pred))
+    rmse = np.sqrt(mse)
     mae = metrics.mean_absolute_error(y_test, y_pred)
-    mape = np.mean(np.abs((y_test - y_pred) / np.   abs(y_test)))
+    mape = np.mean(np.abs((y_test - y_pred) / y_test))
+    accuracy = 100 * (1-mape) 
     print('Mean Absolute Error (MAE):', mse)
     print('Mean Squared Error (MSE):', mae)
     print('Root Mean Squared Error (RMSE):',rmse)
     print('Mean Absolute Percentage Error (MAPE):', round(mape * 100, 2))
-    print('Accuracy:', round(100*(1 - mape), 2))
+    print('Accuracy:', round(accuracy, 2))
         
     return best_model, mse,rmse,mae,mape
 
