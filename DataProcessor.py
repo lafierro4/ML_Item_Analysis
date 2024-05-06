@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import matplotlib.pyplot as plt
 
 #Loading Dataset
 item_data = pd.read_csv('Item Data/lol_items_stats.csv', sep=',')

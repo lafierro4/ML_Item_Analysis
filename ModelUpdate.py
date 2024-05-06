@@ -6,6 +6,8 @@ from sklearn.impute import SimpleImputer
 import pandas as pd
 import numpy as np
 from DataProcessor import item_data 
+from time import time
+import matplotlib.pyplot as plt
 
 # Loading and preprocess the dataset
 X = item_data[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']]
@@ -68,10 +70,36 @@ def train_and_evaluate(X_train, X_test, y_train, y_test, model_name):
         
     return best_model, mse, rmse, mae, mape
 
+start_time = time()
 # Training and evaluating the model for cost prediction
 best_model_cost, mse_cost, rmse_cost, mae_cost, mape_cost = train_and_evaluate(X_train_cost_imputed, X_test_cost_imputed, y_train_cost, y_test_cost, "Cost")
+end_time = time()
 print("\nUsing Model:", best_model_cost)
+print(f"It took {end_time-start_time} seconds to Analyze")
 
+start_time = time()
 # Training and evaluating the model for efficiency prediction
 best_model_efficiency, mse_efficiency, rmse_efficiency, mae_efficiency, mape_efficiency = train_and_evaluate(X_train_efficiency_imputed, X_test_efficiency_imputed, y_train_efficiency, y_test_efficiency, "Efficiency")
+end_time = time()
 print("\nUsing Model:", best_model_efficiency)
+print(f"It took {end_time-start_time} seconds to Analyze")
+
+
+
+# Define a function to plot predicted vs. actual values
+def plot_predicted_vs_actual(y_test, y_pred, model_name):
+    plt.figure(figsize=(8, 6))
+    plt.scatter(y_test, y_pred, color='blue')
+    plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], '--', color='red')
+    plt.title(f"Predicted vs Actual ({model_name})")
+    plt.xlabel("Actual Values")
+    plt.ylabel("Predicted Values")
+    plt.grid(True)
+    plt.show()
+
+# Plot predicted vs. actual values for cost prediction
+cost_y_pred = best_model_cost.predict(X_test_cost_imputed)
+plot_predicted_vs_actual(y_test_cost, cost_y_pred, "Cost")
+
+efficiency_y_pred = best_model_efficiency.predict(X_test_efficiency_imputed)
+plot_predicted_vs_actual(y_test_efficiency, efficiency_y_pred, "Efficiency")
