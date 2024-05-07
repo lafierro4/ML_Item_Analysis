@@ -5,6 +5,7 @@ from sklearn import metrics
 import pandas as pd
 import numpy as np
 from DataProcessor import item_data  # imports the processed data
+from time import time
 
 # Loading and preprocess the dataset
 X = item_data[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']]
@@ -12,13 +13,16 @@ y_cost = item_data['Cost']
 y_efficiency = item_data['GoldEfficiency']
 
 # Spliting the dataset into training and testing sets
-X_train, X_test, y_cost_train, y_cost_test = train_test_split(X, y_cost, test_size=0.2, random_state=42)
-X_train, X_test, y_efficiency_train, y_efficiency_test = train_test_split(X, y_efficiency, test_size=0.2, random_state=42)
+X_train_cost, X_test_cost, y_cost_train, y_cost_test = train_test_split(X, y_cost, test_size=0.2, random_state=42)
+X_train_efficiency, X_test_efficiency, y_efficiency_train, y_efficiency_test = train_test_split(X, y_efficiency, test_size=0.2, random_state=42)
 
-#Standardize and Scale the features
+
+# Standardize and scale the features
 scaler = StandardScaler()
-X_train_scaled = scaler.fit_transform(X_train)
-X_test_scaled = scaler.transform(X_test)
+X_train_cost_scaled = scaler.fit_transform(X_train_cost)
+X_test_cost_scaled = scaler.transform(X_test_cost)
+X_train_efficiency_scaled = scaler.fit_transform(X_train_efficiency)
+X_test_efficiency_scaled = scaler.transform(X_test_efficiency)
 
 # Define hyperparameters grid for tuning
 param_grid = {
@@ -56,10 +60,18 @@ def train_and_evaluate(X_train, X_test, y_train, y_test):
 
 # Training and evaluating the model for cost prediction
 print("Cost Prediction:")
-best_model_cost, mse_cost,rmse_cost,mae_cost,mape_cost = train_and_evaluate(X_train, X_test, y_cost_train, y_cost_test)
+start_time = time()
+best_model_cost, mse_cost,rmse_cost,mae_cost,mape_cost = train_and_evaluate(X_train_cost_scaled, X_test_cost_scaled, y_cost_train, y_cost_test)
+end_time = time()
 print("Using Model: ",best_model_cost)
+print(f"It took {end_time-start_time} seconds to Analyze")
+
 
 # Training and evaluating the model for efficiency prediction
-best_model_efficiency, mse_efficiency,rmse_efficiency,mae_efficiency,mape_efficiency = train_and_evaluate(X_train, X_test, y_efficiency_train, y_efficiency_test)
 print("\nEfficiency Prediction:")
+start_time = time()
+best_model_efficiency, mse_efficiency,rmse_efficiency,mae_efficiency,mape_efficiency = train_and_evaluate(X_train_efficiency_scaled, X_test_efficiency_scaled, y_efficiency_train, y_efficiency_test)
+end_time = time()
 print("Using Model: ",best_model_efficiency)
+print(f"It took {end_time-start_time} seconds to Analyze")
+

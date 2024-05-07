@@ -87,22 +87,27 @@ end_time = time()
 print("\nUsing Model:", best_model_efficiency)
 print(f"It took {end_time-start_time} seconds to Analyze")
 
+cost_y_pred = best_model_cost.predict(X_test_cost_imputed)
+efficiency_y_pred = best_model_efficiency.predict(X_test_efficiency_imputed)
 
-
-# Define a function to plot predicted vs. actual values
-def plot_predicted_vs_actual(y_test, y_pred, model_name):
-    plt.figure(figsize=(8, 6))
-    plt.scatter(y_test, y_pred, color='blue')
-    plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], '--', color='red')
-    plt.title(f"Predicted vs Actual ({model_name})")
-    plt.xlabel("Actual Values")
-    plt.ylabel("Predicted Values")
-    plt.grid(True)
-    plt.show()
+plt.figure(figsize=(10, 8))
 
 # Plot predicted vs. actual values for cost prediction
-cost_y_pred = best_model_cost.predict(X_test_cost_imputed)
-plot_predicted_vs_actual(y_test_cost, cost_y_pred, "Cost")
 
-efficiency_y_pred = best_model_efficiency.predict(X_test_efficiency_imputed)
-plot_predicted_vs_actual(y_test_efficiency, efficiency_y_pred, "Efficiency")
+plt.subplot(1, 2, 1)
+plt.scatter(y_test_cost, cost_y_pred, color='blue')
+plt.plot([min(y_test_cost), max(y_test_cost)], [min(y_test_cost), max(y_test_cost)], '--', color='green')
+plt.title("Predicted vs Actual (Cost)")
+plt.xlabel("Actual Cost")
+plt.ylabel("Predicted Cost")
+
+plt.subplot(1, 2, 2)
+plt.scatter(y_test_efficiency, efficiency_y_pred, color='red')
+plt.plot([min(y_test_efficiency), max(y_test_efficiency)], [min(y_test_efficiency), max(y_test_efficiency)], '--', color='green')
+plt.title("Predicted vs Actual (Efficiency)")
+plt.xlabel("Actual Efficiency")
+plt.ylabel("Predicted Efficiency")
+
+plt.grid(True)
+plt.tight_layout()
+plt.show()
