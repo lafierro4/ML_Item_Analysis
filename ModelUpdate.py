@@ -9,6 +9,9 @@ from DataProcessor import item_data
 from time import time
 import matplotlib.pyplot as plt
 
+
+#Fill missing values with 0s
+item_data = item_data.fillna(0)
 # Loading and preprocess the dataset
 X = item_data[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']]
 y_cost = item_data['Cost']

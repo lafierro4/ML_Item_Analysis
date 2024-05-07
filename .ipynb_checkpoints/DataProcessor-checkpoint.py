@@ -16,29 +16,28 @@ dataitemstat = item_data[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','H
 
 
 itemcost = item_data[['Item','Cost']]
-print(itemcost)
+#print(itemcost)
 
 sumstat=dataitemstat.sum(axis=1)
-print(sumstat)
+#print(sumstat)
 
 goldstat = pd.concat([itemcost,sumstat], axis=1)
-print(goldstat)
+#print(goldstat)
 
 goldstat=goldstat.rename(columns = {0: 'Sumstat'})
-print(goldstat)
+#print(goldstat)
 
 ratiocal = pd.DataFrame((goldstat.Sumstat/goldstat.Cost)*100)
 StatGoldRatio = pd.concat([goldstat,ratiocal], axis=1)
+StatGoldRatio = StatGoldRatio.sort_values(by=0)
 StatGoldRatio=StatGoldRatio.rename(columns = {0: 'Stats/Gold ratio'})
-print(StatGoldRatio)
-
-#item_data['Stats/Gold Ratio'] = 
+#print(StatGoldRatio)
 
 # Step 1: Calculate the total value of the stats provided by each item
 item_data['TotalStatsValue'] = item_data[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']].sum(axis=1)
 
 # Step 2: Calculate the gold efficiency of each item
-item_data['GoldEfficiency'] = (item_data['TotalStatsValue'] / item_data['Cost'])*100
+item_data['GoldEfficiency'] = item_data['TotalStatsValue'] / item_data['Cost']
 
 # Step 3: Print the item name and its gold efficiency
 item_efficiency = item_data[['Item', 'GoldEfficiency']]
