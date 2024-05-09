@@ -30,7 +30,7 @@ param_grid = {
     'max_depth': [None,5, 10, 15,20],
     'min_samples_split': [2, 5, 10],
     'min_samples_leaf': [1, 2, 4],
-    'max_features':['sqrt','log2',1,3,5,7,11],
+    'max_features':['sqrt','log2'],
     'max_leaf_nodes':[None,2,4,8]
 }
 

@@ -44,5 +44,7 @@ item_data['GoldEfficiency'] = (item_data['TotalStatsValue'] / item_data['Cost'])
 item_efficiency = item_data[['Item', 'GoldEfficiency']]
 #print(item_efficiency)
 
+#Fill missing values with 0s
+item_data = item_data.fillna(0)
 
 print(item_data)

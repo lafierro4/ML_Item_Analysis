@@ -6,10 +6,6 @@ import numpy as np
 from DataProcessor import item_data
 import matplotlib.pyplot as plt
 
-
-#Fill missing values with 0s
-item_data = item_data.fillna(0)
-
 # Loading and preprocess the dataset
 X = item_data[['AD','AS','Crit','LS','APen','AP','AH','Mana','MP5','HSP','OVamp','MPen','Health','Armor','MR','HP5','MS']]
 y_cost = item_data['Cost']
@@ -27,14 +23,14 @@ X_train_efficiency_scaled = scaler.fit_transform(X_train_efficiency)
 X_test_efficiency_scaled = scaler.transform(X_test_efficiency)
 
 
-
 #Using the best models that were found and training them on the data
-cost_model = GradientBoostingRegressor(n_estimators=100,max_depth=15, max_features=11, max_leaf_nodes=4,
-                      min_samples_leaf=2, min_samples_split=10)
+cost_model = GradientBoostingRegressor(learning_rate=0.2, max_depth=4, max_features='log2',
+                          min_samples_leaf=2, min_samples_split=4,
+                          n_estimators=75)
 cost_model.fit(X_train_cost_scaled,y_cost_train)
 
-efficiency_model = GradientBoostingRegressor(max_depth=15, max_features=11, max_leaf_nodes=8,
-                      min_samples_leaf=2, min_samples_split=5, n_estimators=25)
+efficiency_model =  GradientBoostingRegressor(learning_rate=0.2, max_depth=4, max_features='sqrt',
+                          min_samples_split=3, n_estimators=75)
 efficiency_model.fit(X_train_efficiency_scaled,y_efficiency_train)
 
 #Making predictions on the models using testing data:
